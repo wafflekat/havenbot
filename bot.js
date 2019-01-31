@@ -217,7 +217,7 @@ bot.on('message', (user, userID, channelID, message, event) => {
                         if (!isNumber(args[1]) || !isNumber(args[2])) {
                             bot.sendMessage({
                                 to: channelID,
-                                message: "The correct format is ``!list PER EXP`` where PER and EXP are numbers"
+                                message: "The correct format is ``!forage list PER EXP`` where PER and EXP are numbers"
                             });
                             return;
                         }
@@ -229,7 +229,7 @@ bot.on('message', (user, userID, channelID, message, event) => {
                     if (args.length === 0 || args[0].trim() === "") {
                         bot.sendMessage({
                             to: channelID,
-                            message: "Did you mean **!forage info**?"
+                            message: "Did you mean **!forage list**?"
                         });
                     } else {
                         forageChance(args.join(' '), channelID);

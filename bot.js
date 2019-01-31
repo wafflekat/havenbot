@@ -226,8 +226,14 @@ bot.on('message', (user, userID, channelID, message, event) => {
                         forageList(channelID);
                     }
                 } else {
-
-                    forageChance(args.join(' '), channelID);
+                    if (args.length === 0 || args[0].trim() === "") {
+                        bot.sendMessage({
+                            to: channelID,
+                            message: "Did you mean **!forage info**?"
+                        });
+                    } else {
+                        forageChance(args.join(' '), channelID);
+                    }
                 }
                 break;
 

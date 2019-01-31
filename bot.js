@@ -10,7 +10,7 @@ const help = require('./help.json');
 
 const bot = new Discord.Client({
     // token: process.env.TOKEN,
-    token: "NTM4OTkyODA0MjY1NzIxODg3.DzR2vA.e8AUrHya6onSAGYSadjJWx2QaEM",
+    token: process.env.TOKEN,
     autorun: true
 });
 
@@ -212,10 +212,9 @@ bot.on('ready', (event) => {
 });
 
 function sendHelp(channelID) {
-    const embed = JSON.parse(help);
     bot.sendMessage({
         to: channelID,
-        embed: embed
+        embed: help
     });
 }
 

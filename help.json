@@ -1,27 +1,25 @@
 {
-  "embed": {
-    "title": "Commands",
-    "fields": [
-      {
-        "name": "!forage list",
-        "value": "Returns a list of forageables."
-      },
-      {
-        "name": "!forage list PER EXP",
-        "value": "Returns a list of forageables and the chance of seeing them based on the provided PER and EXP values (must be numbers)."
-      },
-      {
-        "name": "!forage NAME",
-        "value": "Returns information about a forageable."
-      },
-      {
-        "name": "!wiki NAME",
-        "value": "Returns a screenshot of the item's info box and a link to the wiki page."
-      },
-      {
-        "name": "!status",
-        "value": "Returns the current server status (from the main page)."
-      }
-    ]
-  }
+  "title": "Commands",
+  "fields": [
+    {
+      "name": "!forage list",
+      "value": "Returns a list of forageables."
+    },
+    {
+      "name": "!forage list PER EXP",
+      "value": "Returns a list of forageables and the chance of seeing them based on the provided PER and EXP values (must be numbers)."
+    },
+    {
+      "name": "!forage NAME",
+      "value": "Returns information about a forageable."
+    },
+    {
+      "name": "!wiki NAME",
+      "value": "Returns a screenshot of the item's info box and a link to the wiki page."
+    },
+    {
+      "name": "!status",
+      "value": "Returns the current server status (from the main page)."
+    }
+  ]
 }

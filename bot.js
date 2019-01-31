@@ -22,7 +22,20 @@ function getStatus(channelID) {
     });
 }
 
+function ucFirst(string)
+{
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 function getWikiPage(name, channelID) {
+    if (name.length > 1) {
+        for (let s of name) {
+            s = ucFirst(s);
+        }
+
+        name = name.join('');
+    }
+
     request(`${wikiurl}${name}`, (err, res, body) => {
         if (!err) {
             if (HTMLParser.parse(body).toString().includes('There is currently no text in this page')) {
@@ -208,7 +221,7 @@ bot.on('message', (user, userID, channelID, message, event) => {
                 break;
 
             case 'wiki':
-                getWikiPage(args[0], channelID);
+                getWikiPage(args, channelID);
                 break;
 
             case 'forage':

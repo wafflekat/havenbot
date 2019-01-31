@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Blueberries",
+    "base": 10
+  },
+  {
+    "name": "Spindly Taproot",
+    "base": 20
+  },
+  {
+    "name": "Dandelion",
+    "base": 20
+  },
+  {
+    "name": "Mistletoe",
+    "base": 20
+  },
+  {
+    "name": "Stinging Nettle",
+    "base": 50
+  },
+  {
+    "name": "Chantrelles",
+    "base": 104
+  },
+  {
+    "name": "Wild Windsown Weed",
+    "base": 160
+  },
+  {
+    "name": "Dewy Lady's Mantle",
+    "base": 160
+  },
+  {
+    "name": "Lady's Mantle",
+    "base": 160
+  },
+  {
+    "name": "Thorny Thistle",
+    "base": 180
+  },
+  {
+    "name": "Chives",
+    "base": 180
+  },
+  {
+    "name": "Stalagoom",
+    "base": 200
+  },
+  {
+    "name": "Lingonberries",
+    "base": 216
+  },
+  {
+    "name": "Peculiar Flotsam",
+    "base": 220
+  },
+  {
+    "name": "Bloated Bolete",
+    "base": 220
+  },
+  {
+    "name": "Four-Leaf Clover",
+    "base": 260
+  },
+  {
+    "name": "Clover",
+    "base": 260
+  },
+  {
+    "name": "Uncommon Snapdragon",
+    "base": 288
+  },
+  {
+    "name": "Parasol Mushroom",
+    "base": 300
+  },
+  {
+    "name": "Morels",
+    "base": 300
+  },
+  {
+    "name": "Waybroad",
+    "base": 300
+  },
+  {
+    "name": "Candleberry",
+    "base": 320
+  },
+  {
+    "name": "Yellowfeet",
+    "base": 400
+  },
+  {
+    "name": "Yarrow",
+    "base": 400
+  },
+  {
+    "name": "Spirited Mandrake Root",
+    "base": 400
+  },
+  {
+    "name": "Lamp Stalk",
+    "base": 400
+  },
+  {
+    "name": "Cattail",
+    "base": 400
+  },
+  {
+    "name": "Mandrake Root",
+    "base": 400
+  },
+  {
+    "name": "Washed-up Bladderwrack",
+    "base": 500
+  },
+  {
+    "name": "Gray Clay",
+    "base": 540
+  },
+  {
+    "name": "Tangled Bramble",
+    "base": 560
+  },
+  {
+    "name": "Royal Toadstool",
+    "base": 648
+  },
+  {
+    "name": "Frog's Crown",
+    "base": 900
+  },
+  {
+    "name": "Rustroot",
+    "base": 1000
+  },
+  {
+    "name": "Giant Puffball",
+    "base": 1000
+  },
+  {
+    "name": "Chiming Bluebell",
+    "base": 1040
+  },
+  {
+    "name": "Cavebulb",
+    "base": 1050
+  },
+  {
+    "name": "River Pearl Mussel",
+    "base": 1520
+  },
+  {
+    "name": "Kvann",
+    "base": 1800
+  },
+  {
+    "name": "Bay Bolete",
+    "base": 1920
+  },
+  {
+    "name": "Rainbowpad",
+    "base": 2000
+  },
+  {
+    "name": "Blood Stern",
+    "base": 2500
+  },
+  {
+    "name": "Glimmermoss",
+    "base": 2550
+  },
+  {
+    "name": "Edelweiss",
+    "base": 3200
+  },
+  {
+    "name": "Strawberry",
+    "base": 3700
+  },
+  {
+    "name": "Rainbow Shell",
+    "base": 5000
+  },
+  {
+    "name": "Camomile",
+    "base": 6600
+  },
+  {
+    "name": "Black Trumpets",
+    "base": 7000
+  },
+  {
+    "name": "Green Kelp",
+    "base": 7000
+  },
+  {
+    "name": "Cave Coral",
+    "base": 7384
+  },
+  {
+    "name": "Dill",
+    "base": 9600
+  },
+  {
+    "name": "Field Blewits",
+    "base": 10000
+  },
+  {
+    "name": "Cave Clay",
+    "base": 10780
+  },
+  {
+    "name": "Cave Lantern",
+    "base": 16000
+  },
+  {
+    "name": "Wintergreen",
+    "base": 24000
+  },
+  {
+    "name": "Marsh-Mallow",
+    "base": 25000
+  }
+]

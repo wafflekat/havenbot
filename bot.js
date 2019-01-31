@@ -5,6 +5,7 @@ const HTMLParser = require('node-html-parser');
 const puppeteer = require('puppeteer');
 const wikiurl = 'http://ringofbrodgar.com/wiki/';
 const forage = require('./forage.json');
+const help = require('./help.json');
 // const forage = JSON.parse(f);
 
 const bot = new Discord.Client({
@@ -210,6 +211,14 @@ bot.on('ready', (event) => {
     });
 });
 
+function sendHelp(channelID) {
+    const embed = JSON.parse(help);
+    bot.sendMessage({
+        to: channelID,
+        embed: embed
+    });
+}
+
 bot.on('message', (user, userID, channelID, message, event) => {
     if (message.substring(0, 1) === '!') {
         let args = message.substring(1).split(' ');
@@ -218,6 +227,10 @@ bot.on('message', (user, userID, channelID, message, event) => {
         args = args.splice(1);
 
         switch (cmd) {
+            case 'help':
+                sendHelp(channelID);
+                break;
+
             case 'status':
                 getStatus(channelID);
                 break;
@@ -244,7 +257,7 @@ bot.on('message', (user, userID, channelID, message, event) => {
                     if (args.length === 0 || args[0].trim() === "") {
                         bot.sendMessage({
                             to: channelID,
-                            message: "Did you mean **!forage list**?"
+                            message: "Use ``!help`` for a list of commands."
                         });
                     } else {
                         forageChance(args.join(' '), channelID);

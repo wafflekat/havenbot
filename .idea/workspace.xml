@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="662174ef-7e79-4101-a5e9-baabff2c0a26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot.js" afterDir="false" />
-    </list>
+    <list default="true" id="662174ef-7e79-4101-a5e9-baabff2c0a26" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="219" column="54" lean-forward="true" selection-start-line="219" selection-start-column="54" selection-end-line="219" selection-end-column="54" />
+            <state relative-caret-position="3697">
+              <caret line="239" column="16" selection-start-line="239" selection-start-column="16" selection-end-line="239" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -53,6 +51,7 @@
       <find>setPrese</find>
       <find>bot.set</find>
       <find>forage</find>
+      <find>faile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,16 +148,15 @@
       <workItem from="1548838550263" duration="6215000" />
       <workItem from="1548923958906" duration="308000" />
       <workItem from="1548924278375" duration="75000" />
-      <workItem from="1548924393787" duration="5488000" />
+      <workItem from="1548924393787" duration="6394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23480000" />
+    <option name="totallyTimeSpent" value="24386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -243,8 +241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="219" column="54" lean-forward="true" selection-start-line="219" selection-start-column="54" selection-end-line="219" selection-end-column="54" />
+        <state relative-caret-position="3697">
+          <caret line="239" column="16" selection-start-line="239" selection-start-column="16" selection-end-line="239" selection-end-column="16" />
         </state>
       </provider>
     </entry>

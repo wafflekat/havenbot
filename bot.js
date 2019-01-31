@@ -8,7 +8,8 @@ const forage = require('./forage.json');
 // const forage = JSON.parse(f);
 
 const bot = new Discord.Client({
-    token: process.env.TOKEN,
+    // token: process.env.TOKEN,
+    token: "NTM4OTkyODA0MjY1NzIxODg3.DzR2vA.e8AUrHya6onSAGYSadjJWx2QaEM",
     autorun: true
 });
 
@@ -29,12 +30,13 @@ function ucFirst(string)
 
 function getWikiPage(name, channelID) {
     if (name.length > 1) {
-        for (let s of name) {
-            s = ucFirst(s);
+        for (let i = 0; i < name.length; i ++) {
+            name[i] = ucFirst(name[i]);
         }
 
-        name = name.join('');
+        name = name.join('_');
     }
+    console.log(name);
 
     request(`${wikiurl}${name}`, (err, res, body) => {
         if (!err) {
@@ -101,7 +103,7 @@ function getWikiPage(name, channelID) {
                         bot.uploadFile({
                             to: channelID,
                             file: 'element.png',
-                            message: `${wikiurl}${name}`
+                            message: `<${wikiurl}${name}>`
                         }, error => console.log(error));
                         // bot.sendMessage({
                         //     to: channelID,

@@ -214,7 +214,7 @@ bot.on('message', (user, userID, channelID, message, event) => {
             case 'forage':
                 if (args[0] === 'list') {
                     if (args.length === 3) {
-                        if (typeof args[1] !== 'number' || typeof args[2] !== 'number') {
+                        if (!isNumber(args[1]) || !isNumber(args[2])) {
                             bot.sendMessage({
                                 to: channelID,
                                 message: "The correct format is ``!list PER EXP`` where PER and EXP are numbers"
@@ -243,5 +243,9 @@ bot.on('message', (user, userID, channelID, message, event) => {
         }
     }
 });
+
+function isNumber(n) {
+    return !isNaN(parseFloat(n)) && isFinite(n);
+}
 
 require('http').createServer().listen(3000);

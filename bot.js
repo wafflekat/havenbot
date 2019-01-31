@@ -185,6 +185,14 @@ function forageListChance(per, exp, channelID) {
 bot.on('ready', (event) => {
     console.log('Connected');
     console.log(`Logged in as: ${bot.username} - ${bot.id}`);
+
+    bot.setPresence({
+        game:
+            {
+                name: "Haven & Hearth",
+                type: 0
+            }
+    });
 });
 
 bot.on('message', (user, userID, channelID, message, event) => {

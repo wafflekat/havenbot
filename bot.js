@@ -177,7 +177,9 @@ function forageListChance(per, exp, channelID) {
     let fields = [];
     for (let i = 0; i < forage.length; i++) {
         let chance = Math.round(100 * (2 * val - forage[i].base) / (3 * forage[i].base));
-        if (chance < 0) chance = 0;
+        if (chance <= 0) {
+            continue;
+        }
         if (chance > 100) chance = 100;
 
         fields[i] = {

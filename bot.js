@@ -189,38 +189,66 @@ function forageListChance(per, exp, channelID) {
         }
     }
 
-    const fields1 = fields.slice(0, 20);
-    const fields2 = fields.slice(20, 40);
-    const fields3 = fields.slice(40, 56);
+    if (fields.length <= 25) {
 
-    let embed1 = {
-        fields: fields1
-    };
+        let embed = {
+            fields: fields
+        };
 
-    let embed2 = {
-        fields: fields2
-    };
-
-    let embed3 = {
-        fields: fields3
-    };
-
-    bot.sendMessage({
-        to: channelID,
-        embed: embed1
-    }, (() => {
         bot.sendMessage({
             to: channelID,
-            embed: embed2
-        }, (() => {
+            embed: embed
+        });
+
+    } else if (fields.length <= 50) {
+
+        let embed1 = {
+            fields: fields.slice(0, 25)
+        };
+
+        let embed2 = {
+            fields: fields.slice(25, fields.length)
+        };
+
+        bot.sendMessage({
+            to: channelID,
+            embed: embed1
+        }, () => {
             bot.sendMessage({
                 to: channelID,
-                embed: embed3
-            }, ((error, response) => {
+                embed: embed2
+            });
+        });
 
-            }));
-        }));
-    }));
+    } else {
+        let embed1 = {
+            fields: fields.slice(0, 25)
+        };
+
+        let embed2 = {
+            fields: fields.slice(25, 50)
+        };
+
+        let embed3 = {
+            fields: fields.slice(50, fields.length)
+        };
+
+        bot.sendMessage({
+            to: channelID,
+            embed: embed1
+        }, () => {
+            bot.sendMessage({
+                to: channelID,
+                embed: embed2
+            }, () => {
+                bot.sendMessage({
+                    to: channelID,
+                    embed: embed3
+                });
+            });
+        });
+    }
+
 }
 
 bot.on('ready', (event) => {

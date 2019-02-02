@@ -24,14 +24,13 @@ function getStatus(channelID) {
     });
 }
 
-function ucFirst(string)
-{
+function ucFirst(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 function getWikiPage(name, channelID) {
     if (name.length > 1) {
-        for (let i = 0; i < name.length; i ++) {
+        for (let i = 0; i < name.length; i++) {
             name[i] = ucFirst(name[i]);
         }
 
@@ -50,7 +49,7 @@ function getWikiPage(name, channelID) {
 
                 (async () => {
 
-                    const browser = await puppeteer.launch({headless: true, args:['--no-sandbox']});
+                    const browser = await puppeteer.launch({headless: true, args: ['--no-sandbox']});
                     const page = await browser.newPage();
                     page.setViewport({width: 1000, height: 600, deviceScaleFactor: 1});
 
@@ -188,14 +187,38 @@ function forageListChance(per, exp, channelID) {
         }
     }
 
-    let embed = {
-        fields: fields
+    const fields1 = fields.slice(0, 20);
+    const fields2 = fields.slice(20, 40);
+    const fields3 = fields.slice(40, 56);
+
+    let embed1 = {
+        fields: fields1
+    };
+
+    let embed2 = {
+        fields: fields2
+    };
+
+    let embed3 = {
+        fields: fields3
     };
 
     bot.sendMessage({
         to: channelID,
-        embed: embed
-    });
+        embed: embed1
+    }, (() => {
+        bot.sendMessage({
+            to: channelID,
+            embed: embed2
+        }, (() => {
+            bot.sendMessage({
+                to: channelID,
+                embed: embed3
+            }, ((error, response) => {
+
+            }));
+        }));
+    }));
 }
 
 bot.on('ready', (event) => {

@@ -10,8 +10,8 @@ const help = require('./help.json');
 // const forage = JSON.parse(f);
 
 const bot = new Discord.Client({
+    token: 'NTM4OTkyODA0MjY1NzIxODg3.DzhSGQ.aoTt990zzVNs8eFXCN-XNu2sWiM',
     // token: process.env.TOKEN,
-    token: process.env.TOKEN,
     autorun: true
 });
 
@@ -197,13 +197,17 @@ function forageListChance(per, exp, channelID) {
 function gildList(args, channelID) {
     if (args.toLowerCase() === 'ua') args = 'unarmed combat';
     if (args.toLowerCase() === 'mc') args = "melee combat";
+    if (args.toLowerCase() === 'str') args = "strength";
+    if (args.toLowerCase() === 'agi') args = "agility";
+    if (args.toLowerCase() === 'int') args = "intelligence";
+    if (args.toLowerCase() === 'psy') args = "psyche";
 
     let fields = [];
     for (let i = 0; i < gild.length; i++) {
-        if (gild[i].gild1.toLowerCase().substring(0, gild[i].gild1.indexOf('+')) === args.toLowerCase() ||
-            gild[i].gild2.toLowerCase().substring(0, gild[i].gild2.indexOf('+')) === args.toLowerCase() ||
-            gild[i].gild3.toLowerCase().substring(0, gild[i].gild3.indexOf('+')) === args.toLowerCase() ||
-            gild[i].gild4.toLowerCase().substring(0, gild[i].gild4.indexOf('+')) === args.toLowerCase()) {
+        if (gild[i].gild1.toLowerCase().substring(0, gild[i].gild1.indexOf(' +')) === args.toLowerCase() ||
+            gild[i].gild2.toLowerCase().substring(0, gild[i].gild2.indexOf(' +')) === args.toLowerCase() ||
+            gild[i].gild3.toLowerCase().substring(0, gild[i].gild3.indexOf(' +')) === args.toLowerCase() ||
+            gild[i].gild4.toLowerCase().substring(0, gild[i].gild4.indexOf(' +')) === args.toLowerCase()) {
 
             let values = [gild[i].gild1, gild[i].gild2, gild[i].gild3, gild[i].gild4].filter(Boolean).join(', ');
 

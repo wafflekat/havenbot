@@ -200,10 +200,10 @@ function gildList(args, channelID) {
 
     let fields = [];
     for (let i = 0; i < gild.length; i++) {
-        if (gild[i].gild1.toLowerCase() === args.toLowerCase() ||
-            gild[i].gild2.toLowerCase() === args.toLowerCase() ||
-            gild[i].gild3.toLowerCase() === args.toLowerCase() ||
-            gild[i].gild4.toLowerCase() === args.toLowerCase()) {
+        if (gild[i].gild1.toLowerCase().substring(0, gild[i].gild1.indexOf('+')) === args.toLowerCase() ||
+            gild[i].gild2.toLowerCase().substring(0, gild[i].gild2.indexOf('+')) === args.toLowerCase() ||
+            gild[i].gild3.toLowerCase().substring(0, gild[i].gild3.indexOf('+')) === args.toLowerCase() ||
+            gild[i].gild4.toLowerCase().substring(0, gild[i].gild4.indexOf('+')) === args.toLowerCase()) {
 
             let values = [gild[i].gild1, gild[i].gild2, gild[i].gild3, gild[i].gild4].filter(Boolean).join(', ');
 

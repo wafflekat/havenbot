@@ -1,0 +1,488 @@
+[
+  {
+    "name": "Ancient Tooth",
+    "chance": "30%-65%",
+    "gild1": "Carpentry +15",
+    "gild2": "Cooking +12",
+    "gild3": "Melee +9",
+    "gild4": "Masonry +6",
+    "att": "Agility"
+  },
+  {
+    "name": "Bark Reinforcement",
+    "chance": "50%-90%",
+    "gild1": "Unarmed Combat +1",
+    "gild2": "",
+    "gild3": "",
+    "gild4": "",
+    "att": "Survival, Unarmed Combat"
+  },
+  {
+    "name": "Bear Fur Trimmings",
+    "chance": "20%-85%",
+    "gild1": "Strength +1",
+    "gild2": "Melee Combat +1",
+    "gild3": "Unarmed Combat +1",
+    "gild4": "",
+    "att": "Sewing, Strength, Survival, Melee Combat"
+  },
+  {
+    "name": "Bear Tooth",
+    "chance": "20%-60%",
+    "gild1": "Strength +2",
+    "gild2": "",
+    "gild3": "",
+    "gild4": "",
+    "att": "Strength"
+  },
+  {
+    "name": "Blacksmith's Bauble",
+    "chance": "20%-80%",
+    "gild1": "Strength +1",
+    "gild2": "Melee Combat +2",
+    "gild3": "Smithing +3",
+    "gild4": "",
+    "att": "Strength, Smithing"
+  },
+  {
+    "name": "Boarhide Lining",
+    "chance": "35%-75%",
+    "gild1": "Constitution +1",
+    "gild2": "Unarmed Combat  +4",
+    "gild3": "Cooking +2",
+    "gild4": "",
+    "att": "Strength, Unarmed Combat, Survival"
+  },
+  {
+    "name": "Bone Pins",
+    "chance": "35%-100%",
+    "gild1": "Stealth +5",
+    "gild2": "",
+    "gild3": "",
+    "gild4": "",
+    "att": "Stealth"
+  },
+  {
+    "name": "Chef's Pin",
+    "chance": "40%-100%",
+    "gild1": "Cooking +5",
+    "gild2": "",
+    "gild3": "",
+    "gild4": "",
+    "att": "Cooking"
+  },
+  {
+    "name": "Chitin Sequins",
+    "chance": "60%-95%",
+    "gild1": "Cooking +3",
+    "gild2": "Carpentry +2",
+    "gild3": "Stealth +1",
+    "gild4": "",
+    "att": "Will, Agility, Survival"
+  },
+  {
+    "name": "Copper Scales",
+    "chance": "45%-100%",
+    "gild1": "Strength +2",
+    "gild2": "Smithing +3",
+    "gild3": "Lore +6",
+    "gild4": "",
+    "att": "Strength, Smithing"
+  },
+  {
+    "name": "Cornbraid",
+    "chance": "50%-95%",
+    "gild1": "Perception +1",
+    "gild2": "Cooking +2",
+    "gild3": "Farming +3",
+    "gild4": "",
+    "att": "Charisma, Farming"
+  },
+  {
+    "name": "Extra Stitches",
+    "chance": "40%-100%",
+    "gild1": "Cooking +2",
+    "gild2": "Survival +2",
+    "gild3": "Unarmed +2",
+    "gild4": "",
+    "att": "Agility, Charisma, Sewing"
+  },
+  {
+    "name": "Fancy Buckle",
+    "chance": "35%-90%",
+    "gild1": "Agility +2",
+    "gild2": "Melee +4",
+    "gild3": "",
+    "gild4": "",
+    "att": "Melee Combat"
+  },
+  {
+    "name": "Feather Stuffing",
+    "chance": "30%-90%",
+    "gild1": "Agility +1",
+    "gild2": "Exploration +2",
+    "gild3": "Stealth +3",
+    "gild4": "",
+    "att": "Exploration, Sewing"
+  },
+  {
+    "name": "Feather Trinket",
+    "chance": "50%-100%",
+    "gild1": "Dexterity +1",
+    "gild2": "Farming +3",
+    "gild3": "",
+    "gild4": "",
+    "att": "Farming"
+  },
+  {
+    "name": "Felt Inlay",
+    "chance": "45%-85%",
+    "gild1": "Sewing +1",
+    "gild2": "Stealth +2",
+    "gild3": "",
+    "gild4": "",
+    "att": "Charisma, Sewing"
+  },
+  {
+    "name": "Fine Feather Brooch",
+    "chance": "60%-90%",
+    "gild1": "Lore +3",
+    "gild2": "Masonry +2",
+    "gild3": "Unarmed Combat +2",
+    "gild4": "Will + 1",
+    "att": "Charisma, Lore, Sewing, Will"
+  },
+  {
+    "name": "Finebone Trinkets",
+    "chance": "40%-90%",
+    "gild1": "Melee Combat +2",
+    "gild2": "Stealth +1",
+    "gild3": "Will +1",
+    "gild4": "",
+    "att": "Survival, Sewing, Agility"
+  },
+  {
+    "name": "Forager's Brooch",
+    "chance": "40%-100%",
+    "gild1": "Perception +1",
+    "gild2": "Exploration +2",
+    "gild3": "",
+    "gild4": "",
+    "att": "Exploration"
+  },
+  {
+    "name": "Foul Smoke",
+    "chance": "20%-80%",
+    "gild1": "Intelligence +5",
+    "gild2": "Psyche +2",
+    "gild3": "Stealth +3",
+    "gild4": "",
+    "att": "Psyche, Stealth"
+  },
+  {
+    "name": "Glass Beads",
+    "chance": "40%-90%",
+    "gild1": "Perception +5",
+    "gild2": "",
+    "gild3": "",
+    "gild4": "",
+    "att": "Exploration"
+  },
+  {
+    "name": "Greased Joints",
+    "chance": "50%-95%",
+    "gild1": "Agility +1",
+    "gild2": "Dexterity +2",
+    "gild3": "Marksmanship +3",
+    "gild4": "",
+    "att": "Dexterity, Sewing, Survival"
+  },
+  {
+    "name": "Hard Metal Rivets",
+    "chance": "25%-85%",
+    "gild1": "Melee Combat +3",
+    "gild2": "Carpentry +3",
+    "gild3": "",
+    "gild4": "",
+    "att": "Charisma"
+  },
+  {
+    "name": "Heartwood Leaves",
+    "chance": "30%-90%",
+    "gild1": "Perception +5",
+    "gild2": "Farming +5",
+    "gild3": "Cooking +5",
+    "gild4": "",
+    "att": "Psyche, Farming"
+  },
+  {
+    "name": "Hemp Fibre Finery",
+    "chance": "40%-90%",
+    "gild1": "Strength +1",
+    "gild2": "Agility +1",
+    "gild3": "Farming +3",
+    "gild4": "",
+    "att": "Agility, Charisma, Farming"
+  },
+  {
+    "name": "Hide Layer",
+    "chance": "45%-85%",
+    "gild1": "Unarmed Combat +2",
+    "gild2": "Melee Combat +2",
+    "gild3": "Survival +2",
+    "gild4": "",
+    "att": "Exploration, Sewing, Survival"
+  },
+  {
+    "name": "Leather Patch",
+    "chance": "40%-100%",
+    "gild1": "Exploration +3",
+    "gild2": "Survival +3",
+    "gild3": "",
+    "gild4": "",
+    "att": "Survival"
+  },
+  {
+    "name": "Lynx Claws",
+    "chance": "30%-65%",
+    "gild1": "Agility +2",
+    "gild2": "",
+    "gild3": "",
+    "gild4": "",
+    "att": "Agility"
+  },
+  {
+    "name": "Magpie's Thieving Claw",
+    "chance": "20%-50%",
+    "gild1": "Stealth +3",
+    "gild2": "Intelligence +2",
+    "gild3": "",
+    "gild4": "",
+    "att": "Stealth"
+  },
+  {
+    "name": "Metal Buttons",
+    "chance": "40%-90%",
+    "gild1": "Unarmed Combat +3",
+    "gild2": "Smithing +1",
+    "gild3": "",
+    "gild4": "",
+    "att": "Sewing"
+  },
+  {
+    "name": "Mohair Monogram",
+    "chance": "35%-90%",
+    "gild1": "Sewing +6",
+    "gild2": "Melee +4",
+    "gild3": "",
+    "gild4": "",
+    "att": "Strength, Charisma, Sewing"
+  },
+  {
+    "name": "Mole's Pawbone",
+    "chance": "45%-80%",
+    "gild1": "Masonry +3",
+    "gild2": "Exploration +2",
+    "gild3": "Perception +1",
+    "gild4": "",
+    "att": "Agility, Masonry, Survival"
+  },
+  {
+    "name": "Moose Antler Buttons",
+    "chance": "30%-95%",
+    "gild1": "Unarmed Combat +4",
+    "gild2": "Will +2",
+    "gild3": "Agility +1",
+    "gild4": "",
+    "att": "Sewing, Strength, Survival"
+  },
+  {
+    "name": "Patterned Embroidery",
+    "chance": "30%-90%",
+    "gild1": "Sewing +5",
+    "gild2": "Unarmed Combat +3",
+    "gild3": "Strength +1",
+    "gild4": "",
+    "att": "Sewing"
+  },
+  {
+    "name": "Petraglyph",
+    "chance": "50%-95%",
+    "gild1": "Intelligence +1",
+    "gild2": "Masonry +2",
+    "gild3": "Lore +3",
+    "gild4": "",
+    "att": "Masonry, Lore"
+  },
+  {
+    "name": "Plumb-Bob",
+    "chance": "45%-95%",
+    "gild1": "Intelligence +1",
+    "gild2": "Masonry +4",
+    "gild3": "Smithing +2",
+    "gild4": "",
+    "att": "Intelligence, Exploration, Masonry"
+  },
+  {
+    "name": "Polished Porphyry Beads",
+    "chance": "40%-90%",
+    "gild1": "Strength +1",
+    "gild2": "Masonry +2",
+    "gild3": "",
+    "gild4": "",
+    "att": "Charisma, Masonry"
+  },
+  {
+    "name": "Precious Details",
+    "chance": "10%-80%",
+    "gild1": "Intelligence +3",
+    "gild2": "Charisma +5",
+    "gild3": "",
+    "gild4": "",
+    "att": "Agility"
+  },
+  {
+    "name": "Quilted Wadding",
+    "chance": "20%-100%",
+    "gild1": "Dexterity +3",
+    "gild2": "Sewing +5",
+    "gild3": "",
+    "gild4": "",
+    "att": "Charisma, Sewing"
+  },
+  {
+    "name": "Reinforced Hem",
+    "chance": "25%-100%",
+    "gild1": "Constitution +2",
+    "gild2": "Unarmed Combat +3",
+    "gild3": "Marksmanship +4",
+    "gild4": "",
+    "att": "Strength, Survival"
+  },
+  {
+    "name": "Rock Crystal",
+    "chance": "0%-75%",
+    "gild1": "Strength +2",
+    "gild2": "Melee Combat +6",
+    "gild3": "",
+    "gild4": "",
+    "att": "Psyche, Melee Combat"
+  },
+  {
+    "name": "Rough Guard Patch",
+    "chance": "40%-100%",
+    "gild1": "Perception +1",
+    "gild2": "Survival +2",
+    "gild3": "Marksmanship +3",
+    "gild4": "",
+    "att": "Agility, Survival, Sewing"
+  },
+  {
+    "name": "Shipwreck Buttons",
+    "chance": "60%-95%",
+    "gild1": "Intelligence +2",
+    "gild2": "Psyche +2",
+    "gild3": "Lore +4",
+    "gild4": "",
+    "att": "Psyche, Sewing, Stealth"
+  },
+  {
+    "name": "Silken Ribbon",
+    "chance": "30%-90%",
+    "gild1": "Intelligence +2",
+    "gild2": "Charisma +5",
+    "gild3": "Sewing +5",
+    "gild4": "",
+    "att": "Agility"
+  },
+  {
+    "name": "Silkspun Seam",
+    "chance": "50%-100%",
+    "gild1": "Agility +3",
+    "gild2": "Psyche +2",
+    "gild3": "",
+    "gild4": "",
+    "att": "Charisma"
+  },
+  {
+    "name": "Snakeskin Stripes",
+    "chance": "50%-95%",
+    "gild1": "Intelligence +1",
+    "gild2": "Will +2",
+    "gild3": "Stealth +3",
+    "gild4": "",
+    "att": "Will, Lore, Stealth"
+  },
+  {
+    "name": "Spun Gluethread",
+    "chance": "10%-80%",
+    "gild1": "Agility +3",
+    "gild2": "",
+    "gild3": "",
+    "gild4": "",
+    "att": "Agility"
+  },
+  {
+    "name": "Taproot Lacing",
+    "chance": "45%-95%",
+    "gild1": "Survival +2",
+    "gild2": "",
+    "gild3": "",
+    "gild4": "",
+    "att": "Survival"
+  },
+  {
+    "name": "Twig of Spruce",
+    "chance": "60%-90%",
+    "gild1": "Survival +1",
+    "gild2": "Lore +1",
+    "gild3": "",
+    "gild4": "",
+    "att": "Charisma, Survival, Exploration"
+  },
+  {
+    "name": "Wax-Impregnated Lining",
+    "chance": "50%-100%",
+    "gild1": "Exploration +5",
+    "gild2": "",
+    "gild3": "",
+    "gild4": "",
+    "att": "Exploration"
+  },
+  {
+    "name": "Wolf's Claw",
+    "chance": "25%-65%",
+    "gild1": "Strength +1",
+    "gild2": "Agility +1",
+    "gild3": "",
+    "gild4": "",
+    "att": "Strength"
+  },
+  {
+    "name": "Woodsman's Token",
+    "chance": "50%-95%",
+    "gild1": "Carpentry +3",
+    "gild2": "Lore +2",
+    "gild3": "",
+    "gild4": "",
+    "att": "Charisma, Exploration, Carpentry, Lore"
+  },
+  {
+    "name": "Wool Cloth Collar",
+    "chance": "45%-95%",
+    "gild1": "Charisma +3",
+    "gild2": "Constitution +3",
+    "gild3": "Sewing +3",
+    "gild4": "",
+    "att": "Dexterity, Charisma, Sewing"
+  },
+  {
+    "name": "Wool Stuffing",
+    "chance": "40%-100%",
+    "gild1": "Constitution +1",
+    "gild2": "Marksmanship +5",
+    "gild3": "",
+    "gild4": "",
+    "att": "Agility, Sewing"
+  }
+]

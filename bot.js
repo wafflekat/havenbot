@@ -5,6 +5,7 @@ const HTMLParser = require('node-html-parser');
 const puppeteer = require('puppeteer');
 const wikiurl = 'http://ringofbrodgar.com/wiki/';
 const forage = require('./forage.json');
+const gild = require('./gild.json');
 const help = require('./help.json');
 // const forage = JSON.parse(f);
 
@@ -189,6 +190,32 @@ function forageListChance(per, exp, channelID) {
         }
     }
 
+    sendMultipartMessage(fields, channelID);
+
+}
+
+function gildList(args, channelID) {
+    let fields = [];
+    for (let i = 0; i < gild.length; i++) {
+        if (gild[i].gild1.toLowerCase().includes(args.toLowerCase()) ||
+            gild[i].gild2.toLowerCase().includes(args.toLowerCase()) ||
+            gild[i].gild3.toLowerCase().includes(args.toLowerCase()) ||
+            gild[i].gild4.toLowerCase().includes(args.toLowerCase())) {
+
+            let values = [gild[i].gild1, gild[i].gild2, gild[i].gild3, gild[i].gild4].filter(Boolean).join(', ');
+
+            fields.push({
+                name: gild[i].name,
+                value: `${values}. Attribute: ${gild[i].att}`
+            });
+        }
+    }
+
+    sendMultipartMessage(fields, channelID);
+
+}
+
+function sendMultipartMessage(fields, channelID) {
     if (fields.length <= 25) {
 
         let embed = {
@@ -248,7 +275,6 @@ function forageListChance(per, exp, channelID) {
             });
         });
     }
-
 }
 
 bot.on('ready', (event) => {
@@ -289,6 +315,17 @@ bot.on('message', (user, userID, channelID, message, event) => {
 
             case 'wiki':
                 getWikiPage(args, channelID);
+                break;
+
+            case 'gild':
+                if (args.length === 0 || args[0].trim() === '') {
+                    bot.sendMessage({
+                        to: channelID,
+                        message: "Use ``!help`` for a list of commands."
+                    });
+                } else {
+                    gildList(args.join(' '), channelID);
+                }
                 break;
 
             case 'forage':

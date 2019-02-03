@@ -18,6 +18,10 @@
       "value": "Returns a screenshot of the item's info box and a link to the wiki page."
     },
     {
+      "name": "!gild ATT",
+      "value": "Returns a list of gildings that match the given attribute name. Use the full attribute name."
+    },
+    {
       "name": "!status",
       "value": "Returns the current server status (from the main page)."
     }

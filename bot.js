@@ -206,7 +206,7 @@ function gildList(args, channelID) {
 
             fields.push({
                 name: gild[i].name,
-                value: `${values}. Attribute: ${gild[i].att}`
+                value: `${values}`
             });
         }
     }

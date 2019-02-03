@@ -10,8 +10,7 @@ const help = require('./help.json');
 // const forage = JSON.parse(f);
 
 const bot = new Discord.Client({
-    token: 'NTM4OTkyODA0MjY1NzIxODg3.DzhSGQ.aoTt990zzVNs8eFXCN-XNu2sWiM',
-    // token: process.env.TOKEN,
+    token: process.env.TOKEN,
     autorun: true
 });
 

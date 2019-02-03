@@ -214,6 +214,7 @@ function gildList(args, channelID) {
         }
     }
 
+    console.log(fields.length);
     if (fields.length === 0) {
         bot.sendMessage({
             to: channelID,

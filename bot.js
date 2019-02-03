@@ -195,12 +195,15 @@ function forageListChance(per, exp, channelID) {
 }
 
 function gildList(args, channelID) {
+    if (args.toLowerCase() === 'ua') args = 'unarmed combat';
+    if (args.toLowerCase() === 'mc') args = "melee combat";
+
     let fields = [];
     for (let i = 0; i < gild.length; i++) {
-        if (gild[i].gild1.toLowerCase().includes(args.toLowerCase()) ||
-            gild[i].gild2.toLowerCase().includes(args.toLowerCase()) ||
-            gild[i].gild3.toLowerCase().includes(args.toLowerCase()) ||
-            gild[i].gild4.toLowerCase().includes(args.toLowerCase())) {
+        if (gild[i].gild1.toLowerCase() === args.toLowerCase() ||
+            gild[i].gild2.toLowerCase() === args.toLowerCase() ||
+            gild[i].gild3.toLowerCase() === args.toLowerCase() ||
+            gild[i].gild4.toLowerCase() === args.toLowerCase()) {
 
             let values = [gild[i].gild1, gild[i].gild2, gild[i].gild3, gild[i].gild4].filter(Boolean).join(', ');
 
@@ -211,7 +214,14 @@ function gildList(args, channelID) {
         }
     }
 
-    sendMultipartMessage(fields, channelID);
+    if (fields.length === 0) {
+        bot.sendMessage({
+            to: channelID,
+            message: `Couldn't find any gildings with attribute **${args}**`
+        });
+    } else {
+        sendMultipartMessage(fields, channelID);
+    }
 
 }
 

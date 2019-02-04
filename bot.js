@@ -28,6 +28,32 @@ function ucFirst(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
+function searchWiki(name, channelID) {
+    name = name.replace('_', '+');
+    request(`http://ringofbrodgar.com/w/index.php?title=Special%3ASearch&search=${name}&go=Go`, (err, res, body) => {
+        if (!err) {
+            if (HTMLParser.parse(body).toString().includes('mw-search-results')) {
+
+                const root = HTMLParser.parse(body);
+                const ul = root.querySelector('.mw-search-results');
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: `page does not exist\ndid you mean **${ul.childNodes[0].childNodes[0].childNodes[0].childNodes[0].text}**?`
+                });
+
+            } else {
+                bot.sendMessage({
+                    to: channelID,
+                    message: `page does not exist`
+                });
+            }
+        } else {
+            console.log(err);
+        }
+    });
+}
+
 function getWikiPage(name, channelID) {
     if (name.length > 1) {
         for (let i = 0; i < name.length; i++) {
@@ -36,15 +62,11 @@ function getWikiPage(name, channelID) {
 
         name = name.join('_');
     }
-    console.log(name);
 
     request(`${wikiurl}${name}`, (err, res, body) => {
         if (!err) {
             if (HTMLParser.parse(body).toString().includes('There is currently no text in this page')) {
-                bot.sendMessage({
-                    to: channelID,
-                    message: 'page does not exist'
-                })
+                searchWiki(name, channelID);
             } else {
 
                 (async () => {
@@ -294,6 +316,7 @@ function sendMultipartMessage(fields, channelID) {
 bot.on('ready', (event) => {
     console.log('Connected');
     console.log(`Logged in as: ${bot.username} - ${bot.id}`);
+    bot.servers
 
     bot.setPresence({
         game:

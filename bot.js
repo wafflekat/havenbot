@@ -30,19 +30,25 @@ function ucFirst(string) {
 
 function searchWiki(name, channelID) {
     name = name.replace('_', '+');
-    request(`http://ringofbrodgar.com/w/index.php?title=Special%3ASearch&search=${name}&go=Go`, (err, res, body) => {
+    console.log('searchWiki', name);
+    request(`http://ringofbrodgar.com/w/index.php?title=Special%3ASearch&search=${name}&fulltext=Search`, (err, res, body) => {
         if (!err) {
             if (HTMLParser.parse(body).toString().includes('mw-search-results')) {
-
+                console.log('includes mw-search-results');
                 const root = HTMLParser.parse(body);
                 const ul = root.querySelector('.mw-search-results');
 
-                bot.sendMessage({
-                    to: channelID,
-                    message: `page does not exist\ndid you mean **${ul.childNodes[0].childNodes[0].childNodes[0].childNodes[0].text}**?`
-                });
+                const result = ul.childNodes[0].childNodes[0].childNodes[0].childNodes[0].text;
+
+
+                getWikiPage(result, channelID);
+                // bot.sendMessage({
+                //     to: channelID,
+                //     message: `page does not exist\ndid you mean **${result}**?\n<${wikiurl}${result.replace(` `, '_')}>`
+                // });
 
             } else {
+                console.log('does not include mw-search-results');
                 bot.sendMessage({
                     to: channelID,
                     message: `page does not exist`
@@ -55,13 +61,37 @@ function searchWiki(name, channelID) {
 }
 
 function getWikiPage(name, channelID) {
-    if (name.length > 1) {
+    if (name.constructor === Array) {
         for (let i = 0; i < name.length; i++) {
             name[i] = ucFirst(name[i]);
         }
 
-        name = name.join('_');
+        if (name.length > 1) {
+            name = name.join('_');
+        } else if (name.length === 1) {
+            name = name[0];
+        }
+    } else {
+        name = name.replace(' ', '_')
     }
+
+    if (name.toLowerCase() === 'dicktree') {
+        bot.sendMessage({
+            to: channelID,
+            message: "(`)\n" +
+                " | |\n" +
+                " | |\n" +
+                " | |\n" +
+                " | |\n" +
+                " | |\n" +
+                " | |\n" +
+                " | |\n" +
+                "(\\_)_)"
+        });
+        return;
+    }
+
+    console.log('getWikiPage', name);
 
     request(`${wikiurl}${name}`, (err, res, body) => {
         if (!err) {

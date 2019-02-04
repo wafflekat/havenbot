@@ -4,7 +4,7 @@
     "chance": "30%-65%",
     "gild1": "Carpentry +15",
     "gild2": "Cooking +12",
-    "gild3": "Melee +9",
+    "gild3": "Melee Combat +9",
     "gild4": "Masonry +6",
     "att": "Agility"
   },
@@ -103,7 +103,7 @@
     "chance": "40%-100%",
     "gild1": "Cooking +2",
     "gild2": "Survival +2",
-    "gild3": "Unarmed +2",
+    "gild3": "Unarmed Combat +2",
     "gild4": "",
     "att": "Agility, Charisma, Sewing"
   },
@@ -111,7 +111,7 @@
     "name": "Fancy Buckle",
     "chance": "35%-90%",
     "gild1": "Agility +2",
-    "gild2": "Melee +4",
+    "gild2": "Melee Combat +4",
     "gild3": "",
     "gild4": "",
     "att": "Melee Combat"
@@ -273,7 +273,7 @@
     "name": "Mohair Monogram",
     "chance": "35%-90%",
     "gild1": "Sewing +6",
-    "gild2": "Melee +4",
+    "gild2": "Melee Combat +4",
     "gild3": "",
     "gild4": "",
     "att": "Strength, Charisma, Sewing"

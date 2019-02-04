@@ -346,7 +346,6 @@ function sendMultipartMessage(fields, channelID) {
 bot.on('ready', (event) => {
     console.log('Connected');
     console.log(`Logged in as: ${bot.username} - ${bot.id}`);
-    bot.servers
 
     bot.setPresence({
         game:

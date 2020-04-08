@@ -4,7 +4,15 @@
     "base": 10
   },
   {
+    "name": "Mistletoe",
+    "base": 20
+  },
+  {
     "name": "Spindly Taproot",
+    "base": 20
+  },
+  {
+    "name": "Elven Lights",
     "base": 20
   },
   {
@@ -12,7 +20,15 @@
     "base": 20
   },
   {
-    "name": "Mistletoe",
+    "name": "Bark Cordage",
+    "base": 20
+  },
+  {
+    "name": "Coltsfoot",
+    "base": 20
+  },
+  {
+    "name": "Perfect Autumn Leaf",
     "base": 20
   },
   {
@@ -20,8 +36,16 @@
     "base": 50
   },
   {
+    "name": "Chives",
+    "base": 100
+  },
+  {
     "name": "Chantrelles",
     "base": 104
+  },
+  {
+    "name": "Lady's Mantle",
+    "base": 160
   },
   {
     "name": "Wild Windsown Weed",
@@ -32,15 +56,7 @@
     "base": 160
   },
   {
-    "name": "Lady's Mantle",
-    "base": 160
-  },
-  {
     "name": "Thorny Thistle",
-    "base": 180
-  },
-  {
-    "name": "Chives",
     "base": 180
   },
   {
@@ -48,23 +64,27 @@
     "base": 200
   },
   {
-    "name": "Lingonberries",
-    "base": 216
+    "name": "Gooseneck Barnacle",
+    "base": 200
   },
   {
-    "name": "Peculiar Flotsam",
-    "base": 220
+    "name": "Lingonberries",
+    "base": 216
   },
   {
     "name": "Bloated Bolete",
     "base": 220
   },
   {
-    "name": "Four-Leaf Clover",
-    "base": 260
+    "name": "Peculiar Flotsam",
+    "base": 220
   },
   {
     "name": "Clover",
+    "base": 260
+  },
+  {
+    "name": "Four-Leaf Clover",
     "base": 260
   },
   {
@@ -72,11 +92,11 @@
     "base": 288
   },
   {
-    "name": "Parasol Mushroom",
+    "name": "Morels",
     "base": 300
   },
   {
-    "name": "Morels",
+    "name": "Dusk Fern",
     "base": 300
   },
   {
@@ -84,8 +104,24 @@
     "base": 300
   },
   {
+    "name": "Parasol Mushroom",
+    "base": 300
+  },
+  {
     "name": "Candleberry",
     "base": 320
+  },
+  {
+    "name": "Spirited Mandrake Root",
+    "base": 400
+  },
+  {
+    "name": "Mandrake Root",
+    "base": 400
+  },
+  {
+    "name": "Lamp Stalk",
+    "base": 400
   },
   {
     "name": "Yellowfeet",
@@ -96,20 +132,12 @@
     "base": 400
   },
   {
-    "name": "Spirited Mandrake Root",
-    "base": 400
-  },
-  {
-    "name": "Lamp Stalk",
-    "base": 400
-  },
-  {
     "name": "Cattail",
-    "base": 400
+    "base": 420
   },
   {
-    "name": "Mandrake Root",
-    "base": 400
+    "name": "Swamplily",
+    "base": 500
   },
   {
     "name": "Washed-up Bladderwrack",
@@ -148,12 +176,16 @@
     "base": 1050
   },
   {
-    "name": "River Pearl Mussel",
-    "base": 1520
+    "name": "Razor Clam",
+    "base": 1200
   },
   {
-    "name": "Kvann",
-    "base": 1800
+    "name": "Common Starfish",
+    "base": 1400
+  },
+  {
+    "name": "River Pearl Mussel",
+    "base": 1520
   },
   {
     "name": "Bay Bolete",
@@ -164,6 +196,14 @@
     "base": 2000
   },
   {
+    "name": "Frogspawn",
+    "base": 2000
+  },
+  {
+    "name": "Heartsease",
+    "base": 2400
+  },
+  {
     "name": "Blood Stern",
     "base": 2500
   },
@@ -172,7 +212,7 @@
     "base": 2550
   },
   {
-    "name": "Edelweiss",
+    "name": "Edelweiß",
     "base": 3200
   },
   {
@@ -184,11 +224,19 @@
     "base": 5000
   },
   {
+    "name": "Kvann",
+    "base": 5000
+  },
+  {
     "name": "Camomile",
     "base": 6600
   },
   {
-    "name": "Black Trumpets",
+    "name": "Thyme",
+    "base": 7000
+  },
+  {
+    "name": "Sage",
     "base": 7000
   },
   {
@@ -196,20 +244,28 @@
     "base": 7000
   },
   {
+    "name": "Dill",
+    "base": 7000
+  },
+  {
+    "name": "Black Trumpets",
+    "base": 7000
+  },
+  {
     "name": "Cave Coral",
     "base": 7384
   },
   {
-    "name": "Dill",
-    "base": 9600
+    "name": "Oyster",
+    "base": 8000
+  },
+  {
+    "name": "Cave Clay",
+    "base": 9200
   },
   {
     "name": "Field Blewits",
     "base": 10000
-  },
-  {
-    "name": "Cave Clay",
-    "base": 10780
   },
   {
     "name": "Cave Lantern",
@@ -222,5 +278,9 @@
   {
     "name": "Marsh-Mallow",
     "base": 25000
+  },
+  {
+    "name": "Indigo Cap",
+    "base": 78000
   }
 ]

@@ -24,7 +24,7 @@
     "gild2": "Melee Combat +1",
     "gild3": "Unarmed Combat +1",
     "gild4": "",
-    "att": "Sewing, Strength, Survival, Melee Combat"
+    "att": "Melee Combat, Sewing, Strength, Survival"
   },
   {
     "name": "Bear Tooth",
@@ -42,16 +42,16 @@
     "gild2": "Melee Combat +2",
     "gild3": "Smithing +3",
     "gild4": "",
-    "att": "Strength, Smithing"
+    "att": "Smithing, Strength"
   },
   {
     "name": "Boarhide Lining",
     "chance": "35%-75%",
     "gild1": "Constitution +1",
-    "gild2": "Unarmed Combat  +4",
+    "gild2": "Unarmed Combat +4",
     "gild3": "Cooking +2",
     "gild4": "",
-    "att": "Strength, Unarmed Combat, Survival"
+    "att": "Strength, Survival, Unarmed Combat"
   },
   {
     "name": "Bone Pins",
@@ -78,7 +78,7 @@
     "gild2": "Carpentry +2",
     "gild3": "Stealth +1",
     "gild4": "",
-    "att": "Will, Agility, Survival"
+    "att": "Agility, Survival, Will"
   },
   {
     "name": "Copper Scales",
@@ -87,7 +87,7 @@
     "gild2": "Smithing +3",
     "gild3": "Lore +6",
     "gild4": "",
-    "att": "Strength, Smithing"
+    "att": "Smithing, Strength"
   },
   {
     "name": "Cornbraid",
@@ -103,7 +103,7 @@
     "chance": "40%-100%",
     "gild1": "Cooking +2",
     "gild2": "Survival +2",
-    "gild3": "Unarmed Combat +2",
+    "gild3": "Unarmed +2",
     "gild4": "",
     "att": "Agility, Charisma, Sewing"
   },
@@ -159,7 +159,7 @@
     "gild2": "Stealth +1",
     "gild3": "Will +1",
     "gild4": "",
-    "att": "Survival, Sewing, Agility"
+    "att": "Agility, Sewing, Survival"
   },
   {
     "name": "Forager's Brooch",
@@ -213,7 +213,7 @@
     "gild2": "Farming +5",
     "gild3": "Cooking +5",
     "gild4": "",
-    "att": "Psyche, Farming"
+    "att": "Farming, Psyche"
   },
   {
     "name": "Hemp Fibre Finery",
@@ -270,13 +270,22 @@
     "att": "Sewing"
   },
   {
+    "name": "Meteoric Studs",
+    "chance": "65%-100%",
+    "gild1": "Agility +3",
+    "gild2": "Intelligence +3",
+    "gild3": "Charisma +4",
+    "gild4": "Unarmed Combat +5",
+    "att": "Agility, Lore, Smithing, Strength"
+  },
+  {
     "name": "Mohair Monogram",
     "chance": "35%-90%",
     "gild1": "Sewing +6",
     "gild2": "Melee Combat +4",
     "gild3": "",
     "gild4": "",
-    "att": "Strength, Charisma, Sewing"
+    "att": "Charisma, Sewing, Strength"
   },
   {
     "name": "Mole's Pawbone",
@@ -312,7 +321,7 @@
     "gild2": "Masonry +2",
     "gild3": "Lore +3",
     "gild4": "",
-    "att": "Masonry, Lore"
+    "att": "Lore, Masonry"
   },
   {
     "name": "Plumb-Bob",
@@ -321,7 +330,7 @@
     "gild2": "Masonry +4",
     "gild3": "Smithing +2",
     "gild4": "",
-    "att": "Intelligence, Exploration, Masonry"
+    "att": "Exploration, Intelligence, Masonry"
   },
   {
     "name": "Polished Porphyry Beads",
@@ -366,7 +375,7 @@
     "gild2": "Melee Combat +6",
     "gild3": "",
     "gild4": "",
-    "att": "Psyche, Melee Combat"
+    "att": "Melee Combat, Psyche"
   },
   {
     "name": "Rough Guard Patch",
@@ -375,7 +384,7 @@
     "gild2": "Survival +2",
     "gild3": "Marksmanship +3",
     "gild4": "",
-    "att": "Agility, Survival, Sewing"
+    "att": "Agility, Sewing, Survival"
   },
   {
     "name": "Shipwreck Buttons",
@@ -411,7 +420,7 @@
     "gild2": "Will +2",
     "gild3": "Stealth +3",
     "gild4": "",
-    "att": "Will, Lore, Stealth"
+    "att": "Lore, Stealth, Will"
   },
   {
     "name": "Spun Gluethread",
@@ -432,13 +441,22 @@
     "att": "Survival"
   },
   {
+    "name": "Troll Hide Ruffle",
+    "chance": "30%-90%",
+    "gild1": "Unarmed Combat +8",
+    "gild2": "",
+    "gild3": "",
+    "gild4": "",
+    "att": "Sewing, Strength, Will"
+  },
+  {
     "name": "Twig of Spruce",
     "chance": "60%-90%",
     "gild1": "Survival +1",
     "gild2": "Lore +1",
     "gild3": "",
     "gild4": "",
-    "att": "Charisma, Survival, Exploration"
+    "att": "Charisma, Exploration, Survival"
   },
   {
     "name": "Wax-Impregnated Lining",
@@ -448,6 +466,15 @@
     "gild3": "",
     "gild4": "",
     "att": "Exploration"
+  },
+  {
+    "name": "Whalebone Clasps",
+    "chance": "50%-95%",
+    "gild1": "Melee Combat +3",
+    "gild2": "Unarmed Combat +3",
+    "gild3": "Agility +4",
+    "gild4": "",
+    "att": "Agility, Sewing, Stealth, Strength"
   },
   {
     "name": "Wolf's Claw",
@@ -465,7 +492,7 @@
     "gild2": "Lore +2",
     "gild3": "",
     "gild4": "",
-    "att": "Charisma, Exploration, Carpentry, Lore"
+    "att": "Carpentry, Charisma, Exploration, Lore"
   },
   {
     "name": "Wool Cloth Collar",
@@ -474,7 +501,7 @@
     "gild2": "Constitution +3",
     "gild3": "Sewing +3",
     "gild4": "",
-    "att": "Dexterity, Charisma, Sewing"
+    "att": "Charisma, Dexterity, Sewing"
   },
   {
     "name": "Wool Stuffing",

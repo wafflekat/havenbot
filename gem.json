@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Amber",
+    "chance": "60%-85%",
+    "gild1": "Constitution",
+    "gild2": "Agility",
+    "gild3": "Carpentry",
+    "gild4": "Survival",
+    "att": "Intelligence, Unarmed Combat"
+  },
+  {
+    "name": "Amethyst",
+    "chance": "50%-80%",
+    "gild1": "Constitution",
+    "gild2": "Charisma",
+    "gild3": "Sewing",
+    "gild4": "Melee Combat",
+    "att": "Exploration"
+  },
+  {
+    "name": "Diamond",
+    "chance": "60%-95%",
+    "gild1": "Strength",
+    "gild2": "Agility",
+    "gild3": "Marksmanship",
+    "gild4": "Melee Combat",
+    "att": "Sewing, Intelligence, Charisma"
+  },
+  {
+    "name": "Dust Jewel",
+    "chance": "60%-85%",
+    "gild1": "Perception, Survival",
+    "gild2": "",
+    "gild3": "",
+    "gild4": "",
+    "att": "Exploration"
+  },
+  {
+    "name": "Emerald",
+    "chance": "60%-85%",
+    "gild1": "Charisma",
+    "gild2": "Strength",
+    "gild3": "Farming",
+    "gild4": "Lore",
+    "att": "Charisma, Farming"
+  },
+  {
+    "name": "Jade",
+    "chance": "70%-90%",
+    "gild1": "Psyche",
+    "gild2": "Will",
+    "gild3": "Lore",
+    "gild4": "",
+    "att": "Psyche, Masonry, Sewing"
+  },
+  {
+    "name": "Moonstone",
+    "chance": "50%-90%",
+    "gild1": "Psyche",
+    "gild2": "Constitution",
+    "gild3": "Marksmanship",
+    "gild4": "Smithing",
+    "att": "Lore"
+  },
+  {
+    "name": "Onyx",
+    "chance": "60%-80%",
+    "gild1": "Will",
+    "gild2": "Intelligence",
+    "gild3": "Stealth",
+    "gild4": "Carpentry",
+    "att": "Stealth"
+  },
+  {
+    "name": "Opal",
+    "chance": "60%-80%",
+    "gild1": "Dexterity",
+    "gild2": "Smithing",
+    "gild3": "Survival",
+    "gild4": "Masonry",
+    "att": "Smithing, Charisma"
+  },
+  {
+    "name": "Red Coral",
+    "chance": "60%-85%",
+    "gild1": "Dexterity",
+    "gild2": "",
+    "gild3": "",
+    "gild4": "",
+    "att": "Dexterity"
+  },
+  {
+    "name": "Ruby",
+    "chance": "60%-85%",
+    "gild1": "Strength",
+    "gild2": "Dexterity",
+    "gild3": "Survival",
+    "gild4": "Charisma",
+    "att": "Strength, Survival"
+  },
+  {
+    "name": "Sapphire",
+    "chance": "60%-85%",
+    "gild1": "Agility",
+    "gild2": "Psyche",
+    "gild3": "Exploration",
+    "gild4": "Cooking",
+    "att": "Agility, Unarmed Combat"
+  },
+  {
+    "name": "Topaz",
+    "chance": "60%-85%",
+    "gild1": "Perception",
+    "gild2": "Carpentry",
+    "gild3": "Charisma",
+    "gild4": "Farming",
+    "att": "Perception, Cooking"
+  },
+  {
+    "name": "Turquoise",
+    "chance": "60%-85%",
+    "gild1": "Intelligence",
+    "gild2": "Agility",
+    "gild3": "Exploration",
+    "gild4": "Charisma",
+    "att": "Intelligence, Unarmed Combat"
+  }
+]

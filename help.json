@@ -19,7 +19,11 @@
     },
     {
       "name": "!gild ATT",
-      "value": "Returns a list of gildings that match the given attribute name. Use the full attribute name."
+      "value": "Returns a list of gildings that match the given attribute name."
+    },
+    {
+      "name": "!gem ATT",
+      "value": "Returns a list of gems that match the given attribute name."
     },
     {
       "name": "!status",

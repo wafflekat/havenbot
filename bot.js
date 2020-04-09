@@ -159,7 +159,7 @@ function getWikiPage(name, channel) {
 
           const browser = await puppeteer.launch({headless: true, args: ['--no-sandbox']});
           const page = await browser.newPage();
-          page.setViewport({width: 1000, height: 600, deviceScaleFactor: 1});
+          await page.setViewport({width: 2000, height: 2000, scale: 1});
 
           await page.goto(`${wikiurl}${name}`);
 

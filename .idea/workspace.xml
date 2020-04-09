@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662174ef-7e79-4101-a5e9-baabff2c0a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parseDataMethods.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/element.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forage.json" beforeDir="false" afterPath="$PROJECT_DIR$/forage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gild.json" beforeDir="false" afterPath="$PROJECT_DIR$/gild.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/help.json" beforeDir="false" afterPath="$PROJECT_DIR$/help.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +73,16 @@
       <workItem from="1549137231500" duration="63000" />
       <workItem from="1549137356505" duration="878000" />
       <workItem from="1549278144119" duration="3527000" />
-      <workItem from="1586385234388" duration="3998000" />
+      <workItem from="1586385234388" duration="5328000" />
     </task>
+    <task id="LOCAL-00001" summary="w12 upgrades">
+      <created>1586389326983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586389326983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,7 +93,15 @@
       </list>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="w12 upgrades" />
+    <option name="LAST_COMMIT_MESSAGE" value="w12 upgrades" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="583" y="114" key="CommitChangelistDialog2" timestamp="1586389326074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586389326074" />
     <state x="826" y="242" key="RollbackChangesDialog" timestamp="1586386575035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -102,6 +110,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586387029235" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586389328107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586389328107" />
     <state x="654" y="252" width="611" height="536" key="find.popup" timestamp="1586388705807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

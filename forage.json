@@ -20,7 +20,7 @@
     "base": 20
   },
   {
-    "name": "Bark Cordage",
+    "name": "Yule Star",
     "base": 20
   },
   {
@@ -212,6 +212,10 @@
     "base": 2550
   },
   {
+    "name": "Snowtop",
+    "base": 3000
+  },
+  {
     "name": "Edelweiß",
     "base": 3200
   },
@@ -228,8 +232,20 @@
     "base": 5000
   },
   {
+    "name": "Ruby Bolete",
+    "base": 5000
+  },
+  {
     "name": "Camomile",
     "base": 6600
+  },
+  {
+    "name": "Dill",
+    "base": 7000
+  },
+  {
+    "name": "Black Trumpets",
+    "base": 7000
   },
   {
     "name": "Thyme",
@@ -241,14 +257,6 @@
   },
   {
     "name": "Green Kelp",
-    "base": 7000
-  },
-  {
-    "name": "Dill",
-    "base": 7000
-  },
-  {
-    "name": "Black Trumpets",
     "base": 7000
   },
   {
@@ -278,6 +286,10 @@
   {
     "name": "Marsh-Mallow",
     "base": 25000
+  },
+  {
+    "name": "Sleighbell",
+    "base": 36000
   },
   {
     "name": "Indigo Cap",

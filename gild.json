@@ -99,6 +99,15 @@
     "att": "Charisma, Farming"
   },
   {
+    "name": "Ermine Trimming",
+    "chance": "45%-85%",
+    "gild1": "Strength +3",
+    "gild2": "Charisma +3",
+    "gild3": "Melee Combat +3",
+    "gild4": "",
+    "att": "Charisma, Sewing"
+  },
+  {
     "name": "Extra Stitches",
     "chance": "40%-100%",
     "gild1": "Cooking +2",
@@ -376,6 +385,15 @@
     "gild3": "",
     "gild4": "",
     "att": "Melee Combat, Psyche"
+  },
+  {
+    "name": "Rose Gold Clasps",
+    "chance": "50%-90%",
+    "gild1": "Agility +8",
+    "gild2": "Charisma +5",
+    "gild3": "Marksmanship +10",
+    "gild4": "",
+    "att": "Dexterity"
   },
   {
     "name": "Rough Guard Patch",

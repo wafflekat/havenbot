@@ -1,3 +1,8 @@
+// code to parse data from wiki
+
+// go to the wiki page and paste the contents of the function in the console
+
+// for gilds and gems
 function parseGilds() {
   let gilds = [];
 
@@ -21,6 +26,7 @@ function parseGilds() {
 }
 
 
+// for forage
 function parseForage() {
   let forage = [];
 

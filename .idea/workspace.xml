@@ -32,16 +32,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="662174ef-7e79-4101-a5e9-baabff2c0a26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forage.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/forage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gem.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/gem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gild.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/gild.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/help.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/help.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="662174ef-7e79-4101-a5e9-baabff2c0a26" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +116,7 @@
       <workItem from="1586385234388" duration="5328000" />
       <workItem from="1617052942569" duration="43000" />
       <workItem from="1617053003766" duration="2989000" />
-      <workItem from="1617118329983" duration="5579000" />
+      <workItem from="1617118329983" duration="5912000" />
     </task>
     <task id="LOCAL-00001" summary="w12 upgrades">
       <created>1586389326983</created>
@@ -148,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617058972240</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactored to typescript">
+      <created>1617124169737</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617124169737</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,21 +168,22 @@
     <MESSAGE value="w12 upgrades" />
     <MESSAGE value="updated gitignore" />
     <MESSAGE value="updated forage and gild" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated forage and gild" />
+    <MESSAGE value="refactored to typescript" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored to typescript" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1617058971909">
+    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1617124169348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1617058971909" />
+    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1617124169348" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1617055355510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1617055355510" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617058974696">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617124171450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1617058974696" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1617124171450" />
     <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1617123272943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

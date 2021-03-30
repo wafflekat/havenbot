@@ -33,7 +33,6 @@ export class Bot {
       return;
 
     try {
-      message.channel.startTyping()
       let args = message.content.substring(1).split(' ');
       const cmd = args[0];
       args = args.splice(1);
@@ -79,8 +78,6 @@ export class Bot {
       } else {
         console.log(e);
       }
-    } finally {
-      message.channel.stopTyping()
     }
   }
 

@@ -62,3 +62,5 @@ typings/
 
 .idea/codeStyles
 .idea/workspace.xml
+
+dist/

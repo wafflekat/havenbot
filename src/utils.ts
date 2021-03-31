@@ -192,7 +192,7 @@ export const forageListChance = async (per: number, exp: number, truncate: boole
   const val = per * exp;
   let fields = [];
   for (let i = 0; i < forage.length; i++) {
-    let chance = Math.max(Math.round(100 * (2 * val - forage[i].base) / (3 * forage[i].base)), 100);
+    let chance = Math.min(Math.round(100 * (2 * val - forage[i].base) / (3 * forage[i].base)), 100);
     if (chance <= 0 || (chance === 100 && truncate)) {
       continue;
     }

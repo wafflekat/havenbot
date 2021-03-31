@@ -191,19 +191,18 @@ export const forageList = () => {
 export const forageListChance = async (per: number, exp: number, truncate: boolean) => {
   const val = per * exp;
   let fields = [];
-  for (let i = 0; i < forage.length; i++) {
-    let chance = Math.min(Math.round(100 * (2 * val - forage[i].base) / (3 * forage[i].base)), 100);
+  for (let f of forage) {
+    let chance = Math.min(Math.round(100 * (2 * val - f.base) / (3 * f.base)), 100);
     if (chance <= 0 || (chance === 100 && truncate)) {
       continue;
     }
 
-    fields[i] = {
-      name: forage[i].name,
+    fields.push({
+      name: f.name,
       value: `${chance}%`,
       inline: true,
-    };
+    });
   }
-
   return createMultipartMessage(fields);
 
 };

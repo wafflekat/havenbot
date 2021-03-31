@@ -151,11 +151,12 @@ const parseStatus = async (body: string) => {
 
 export const handleForage = async (args: any) => {
   if (args[0] === 'list') {
-    if (args.length === 3) {
+    if (args.length >= 3) {
       if (!isNumber(args[1]) || !isNumber(args[2])) {
         throw new BotError('The correct format is ``!forage list PER EXP`` where PER and EXP are numbers');
       }
-      return forageListChance(parseInt(args[1]), parseInt(args[2]));
+      let truncate = args.length === 4 && args[3] === '-t';
+      return forageListChance(parseInt(args[1]), parseInt(args[2]), truncate);
     } else {
       return [forageList()];
     }
@@ -187,15 +188,14 @@ export const forageList = () => {
   return message;
 };
 
-export const forageListChance = async (per: number, exp: number) => {
+export const forageListChance = async (per: number, exp: number, truncate: boolean) => {
   const val = per * exp;
   let fields = [];
   for (let i = 0; i < forage.length; i++) {
-    let chance = Math.round(100 * (2 * val - forage[i].base) / (3 * forage[i].base));
-    if (chance <= 0) {
+    let chance = Math.max(Math.round(100 * (2 * val - forage[i].base) / (3 * forage[i].base)), 100);
+    if (chance <= 0 || (chance === 100 && truncate)) {
       continue;
     }
-    if (chance > 100) chance = 100;
 
     fields[i] = {
       name: forage[i].name,

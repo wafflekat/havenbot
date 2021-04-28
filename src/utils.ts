@@ -7,6 +7,8 @@ import gild from './gild.json';
 import gem from './gem.json';
 import help from './help.json';
 
+const WIKI_URL = 'http://ringofbrodgar.com';
+
 export class BotError extends Error {
   constructor(message: string) {
     super(message);
@@ -199,7 +201,7 @@ export const forageListChance = async (per: number, exp: number, truncate: boole
 
     fields.push({
       name: f.name,
-      value: `${chance}%`,
+      value: `[${chance}%](${WIKI_URL}${f.url})`,
       inline: true,
     });
   }
@@ -230,11 +232,12 @@ export const gildList = async (args: string, type: 'gild' | 'gem') => {
       list[i].gild3.toLowerCase().includes(args.toLowerCase()) ||
       list[i].gild4.toLowerCase().includes(args.toLowerCase())) {
 
-      let values = [list[i].gild1, list[i].gild2, list[i].gild3, list[i].gild4].filter(Boolean).join(', ');
+      let values = [list[i].gild1, list[i].gild2, list[i].gild3, list[i].gild4]
+        .filter(Boolean).join(', ');
 
       fields.push({
         name: list[i].name,
-        value: `${values}`,
+        value: `[${values}](${WIKI_URL}${list[i].url})`,
       });
     }
   }

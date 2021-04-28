@@ -6,7 +6,8 @@
     "gild2": "Agility",
     "gild3": "Carpentry",
     "gild4": "Survival",
-    "att": "Intelligence, Unarmed Combat"
+    "att": "Intelligence, Unarmed Combat",
+    "url": "/wiki/Amber"
   },
   {
     "name": "Amethyst",
@@ -15,7 +16,8 @@
     "gild2": "Charisma",
     "gild3": "Sewing",
     "gild4": "Melee Combat",
-    "att": "Exploration"
+    "att": "Exploration",
+    "url": "/wiki/Amethyst"
   },
   {
     "name": "Diamond",
@@ -24,16 +26,18 @@
     "gild2": "Agility",
     "gild3": "Marksmanship",
     "gild4": "Melee Combat",
-    "att": "Sewing, Intelligence, Charisma"
+    "att": "Sewing, Intelligence, Charisma",
+    "url": "/wiki/Diamond"
   },
   {
     "name": "Dust Jewel",
     "chance": "60%-85%",
-    "gild1": "Perception, Survival",
+    "gild1": "Perception\nSurvival",
     "gild2": "",
     "gild3": "",
     "gild4": "",
-    "att": "Exploration"
+    "att": "Exploration",
+    "url": "/wiki/Dust_Jewel"
   },
   {
     "name": "Emerald",
@@ -42,7 +46,8 @@
     "gild2": "Strength",
     "gild3": "Farming",
     "gild4": "Lore",
-    "att": "Charisma, Farming"
+    "att": "Charisma, Farming",
+    "url": "/wiki/Emerald"
   },
   {
     "name": "Jade",
@@ -51,7 +56,8 @@
     "gild2": "Will",
     "gild3": "Lore",
     "gild4": "",
-    "att": "Psyche, Masonry, Sewing"
+    "att": "Psyche, Masonry, Sewing",
+    "url": "/wiki/Jade"
   },
   {
     "name": "Moonstone",
@@ -60,7 +66,8 @@
     "gild2": "Constitution",
     "gild3": "Marksmanship",
     "gild4": "Smithing",
-    "att": "Lore"
+    "att": "Lore",
+    "url": "/wiki/Moonstone"
   },
   {
     "name": "Onyx",
@@ -69,7 +76,8 @@
     "gild2": "Intelligence",
     "gild3": "Stealth",
     "gild4": "Carpentry",
-    "att": "Stealth"
+    "att": "Stealth",
+    "url": "/wiki/Onyx"
   },
   {
     "name": "Opal",
@@ -78,7 +86,8 @@
     "gild2": "Smithing",
     "gild3": "Survival",
     "gild4": "Masonry",
-    "att": "Smithing, Charisma"
+    "att": "Smithing, Charisma",
+    "url": "/wiki/Opal"
   },
   {
     "name": "Red Coral",
@@ -87,7 +96,8 @@
     "gild2": "",
     "gild3": "",
     "gild4": "",
-    "att": "Dexterity"
+    "att": "Dexterity",
+    "url": "/wiki/Red_Coral"
   },
   {
     "name": "Ruby",
@@ -96,7 +106,8 @@
     "gild2": "Dexterity",
     "gild3": "Survival",
     "gild4": "Charisma",
-    "att": "Strength, Survival"
+    "att": "Strength, Survival",
+    "url": "/wiki/Ruby"
   },
   {
     "name": "Sapphire",
@@ -105,7 +116,8 @@
     "gild2": "Psyche",
     "gild3": "Exploration",
     "gild4": "Cooking",
-    "att": "Agility, Unarmed Combat"
+    "att": "Agility, Unarmed Combat",
+    "url": "/wiki/Sapphire"
   },
   {
     "name": "Topaz",
@@ -114,7 +126,8 @@
     "gild2": "Carpentry",
     "gild3": "Charisma",
     "gild4": "Farming",
-    "att": "Perception, Cooking"
+    "att": "Perception, Cooking",
+    "url": "/wiki/Topaz"
   },
   {
     "name": "Turquoise",
@@ -123,6 +136,7 @@
     "gild2": "Agility",
     "gild3": "Exploration",
     "gild4": "Charisma",
-    "att": "Intelligence, Unarmed Combat"
+    "att": "Intelligence, Unarmed Combat",
+    "url": "/wiki/Turquoise"
   }
 ]

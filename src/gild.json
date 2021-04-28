@@ -6,7 +6,8 @@
     "gild2": "Cooking +12",
     "gild3": "Melee Combat +9",
     "gild4": "Masonry +6",
-    "att": "Agility"
+    "att": "Agility",
+    "url": "/wiki/Ancient_Tooth"
   },
   {
     "name": "Bark Reinforcement",
@@ -15,7 +16,8 @@
     "gild2": "",
     "gild3": "",
     "gild4": "",
-    "att": "Survival, Unarmed Combat"
+    "att": "Survival, Unarmed Combat",
+    "url": "/wiki/Bark_Reinforcement"
   },
   {
     "name": "Bear Fur Trimmings",
@@ -24,7 +26,8 @@
     "gild2": "Melee Combat +1",
     "gild3": "Unarmed Combat +1",
     "gild4": "",
-    "att": "Melee Combat, Sewing, Strength, Survival"
+    "att": "Melee Combat, Sewing, Strength, Survival",
+    "url": "/wiki/Bear_Fur_Trimmings"
   },
   {
     "name": "Bear Tooth",
@@ -33,7 +36,8 @@
     "gild2": "",
     "gild3": "",
     "gild4": "",
-    "att": "Strength"
+    "att": "Strength",
+    "url": "/wiki/Bear_Tooth"
   },
   {
     "name": "Blacksmith's Bauble",
@@ -42,7 +46,8 @@
     "gild2": "Melee Combat +2",
     "gild3": "Smithing +3",
     "gild4": "",
-    "att": "Smithing, Strength"
+    "att": "Smithing, Strength",
+    "url": "/wiki/Blacksmith%27s_Bauble"
   },
   {
     "name": "Boarhide Lining",
@@ -51,7 +56,8 @@
     "gild2": "Unarmed Combat +4",
     "gild3": "Cooking +2",
     "gild4": "",
-    "att": "Strength, Survival, Unarmed Combat"
+    "att": "Strength, Survival, Unarmed Combat",
+    "url": "/wiki/Boarhide_Lining"
   },
   {
     "name": "Bone Pins",
@@ -60,7 +66,8 @@
     "gild2": "",
     "gild3": "",
     "gild4": "",
-    "att": "Stealth"
+    "att": "Stealth",
+    "url": "/wiki/Bone_Pins"
   },
   {
     "name": "Chef's Pin",
@@ -69,7 +76,8 @@
     "gild2": "",
     "gild3": "",
     "gild4": "",
-    "att": "Cooking"
+    "att": "Cooking",
+    "url": "/wiki/Chef%27s_Pin"
   },
   {
     "name": "Chitin Sequins",
@@ -78,7 +86,8 @@
     "gild2": "Carpentry +2",
     "gild3": "Stealth +1",
     "gild4": "",
-    "att": "Agility, Survival, Will"
+    "att": "Agility, Survival, Will",
+    "url": "/wiki/Chitin_Sequins"
   },
   {
     "name": "Copper Scales",
@@ -87,7 +96,8 @@
     "gild2": "Smithing +3",
     "gild3": "Lore +6",
     "gild4": "",
-    "att": "Smithing, Strength"
+    "att": "Smithing, Strength",
+    "url": "/wiki/Copper_Scales"
   },
   {
     "name": "Cornbraid",
@@ -96,7 +106,8 @@
     "gild2": "Cooking +2",
     "gild3": "Farming +3",
     "gild4": "",
-    "att": "Charisma, Farming"
+    "att": "Charisma, Farming",
+    "url": "/wiki/Cornbraid"
   },
   {
     "name": "Ermine Trimming",
@@ -105,7 +116,8 @@
     "gild2": "Charisma +3",
     "gild3": "Melee Combat +3",
     "gild4": "",
-    "att": "Charisma, Sewing"
+    "att": "Charisma, Sewing",
+    "url": "/wiki/Ermine_Trimming"
   },
   {
     "name": "Extra Stitches",
@@ -114,7 +126,8 @@
     "gild2": "Survival +2",
     "gild3": "Unarmed +2",
     "gild4": "",
-    "att": "Agility, Charisma, Sewing"
+    "att": "Agility, Charisma, Sewing",
+    "url": "/wiki/Extra_Stitches"
   },
   {
     "name": "Fancy Buckle",
@@ -123,7 +136,8 @@
     "gild2": "Melee Combat +4",
     "gild3": "",
     "gild4": "",
-    "att": "Melee Combat"
+    "att": "Melee Combat",
+    "url": "/wiki/Fancy_Buckle"
   },
   {
     "name": "Feather Stuffing",
@@ -132,7 +146,8 @@
     "gild2": "Exploration +2",
     "gild3": "Stealth +3",
     "gild4": "",
-    "att": "Exploration, Sewing"
+    "att": "Exploration, Sewing",
+    "url": "/wiki/Feather_Stuffing"
   },
   {
     "name": "Feather Trinket",
@@ -141,7 +156,8 @@
     "gild2": "Farming +3",
     "gild3": "",
     "gild4": "",
-    "att": "Farming"
+    "att": "Farming",
+    "url": "/wiki/Feather_Trinket"
   },
   {
     "name": "Felt Inlay",
@@ -150,7 +166,8 @@
     "gild2": "Stealth +2",
     "gild3": "",
     "gild4": "",
-    "att": "Charisma, Sewing"
+    "att": "Charisma, Sewing",
+    "url": "/wiki/Felt_Inlay"
   },
   {
     "name": "Fine Feather Brooch",
@@ -159,7 +176,8 @@
     "gild2": "Masonry +2",
     "gild3": "Unarmed Combat +2",
     "gild4": "Will + 1",
-    "att": "Charisma, Lore, Sewing, Will"
+    "att": "Charisma, Lore, Sewing, Will",
+    "url": "/wiki/Fine_Feather_Brooch"
   },
   {
     "name": "Finebone Trinkets",
@@ -168,7 +186,8 @@
     "gild2": "Stealth +1",
     "gild3": "Will +1",
     "gild4": "",
-    "att": "Agility, Sewing, Survival"
+    "att": "Agility, Sewing, Survival",
+    "url": "/wiki/Finebone_Trinkets"
   },
   {
     "name": "Forager's Brooch",
@@ -177,7 +196,8 @@
     "gild2": "Exploration +2",
     "gild3": "",
     "gild4": "",
-    "att": "Exploration"
+    "att": "Exploration",
+    "url": "/wiki/Forager%27s_Brooch"
   },
   {
     "name": "Foul Smoke",
@@ -186,7 +206,8 @@
     "gild2": "Psyche +2",
     "gild3": "Stealth +3",
     "gild4": "",
-    "att": "Psyche, Stealth"
+    "att": "Psyche, Stealth",
+    "url": "/wiki/Foul_Smoke"
   },
   {
     "name": "Glass Beads",
@@ -195,7 +216,8 @@
     "gild2": "",
     "gild3": "",
     "gild4": "",
-    "att": "Exploration"
+    "att": "Exploration",
+    "url": "/wiki/Glass_Beads"
   },
   {
     "name": "Greased Joints",
@@ -204,7 +226,8 @@
     "gild2": "Dexterity +2",
     "gild3": "Marksmanship +3",
     "gild4": "",
-    "att": "Dexterity, Sewing, Survival"
+    "att": "Dexterity, Sewing, Survival",
+    "url": "/wiki/Greased_Joints"
   },
   {
     "name": "Hard Metal Rivets",
@@ -213,7 +236,8 @@
     "gild2": "Carpentry +3",
     "gild3": "",
     "gild4": "",
-    "att": "Charisma"
+    "att": "Charisma",
+    "url": "/wiki/Hard_Metal_Rivets"
   },
   {
     "name": "Heartwood Leaves",
@@ -222,7 +246,8 @@
     "gild2": "Farming +5",
     "gild3": "Cooking +5",
     "gild4": "",
-    "att": "Farming, Psyche"
+    "att": "Farming, Psyche",
+    "url": "/wiki/Heartwood_Leaves"
   },
   {
     "name": "Hemp Fibre Finery",
@@ -231,7 +256,8 @@
     "gild2": "Agility +1",
     "gild3": "Farming +3",
     "gild4": "",
-    "att": "Agility, Charisma, Farming"
+    "att": "Agility, Charisma, Farming",
+    "url": "/wiki/Hemp_Fibre_Finery"
   },
   {
     "name": "Hide Layer",
@@ -240,7 +266,8 @@
     "gild2": "Melee Combat +2",
     "gild3": "Survival +2",
     "gild4": "",
-    "att": "Exploration, Sewing, Survival"
+    "att": "Exploration, Sewing, Survival",
+    "url": "/wiki/Hide_Layer"
   },
   {
     "name": "Leather Patch",
@@ -249,7 +276,8 @@
     "gild2": "Survival +3",
     "gild3": "",
     "gild4": "",
-    "att": "Survival"
+    "att": "Survival",
+    "url": "/wiki/Leather_Patch"
   },
   {
     "name": "Lynx Claws",
@@ -258,7 +286,8 @@
     "gild2": "",
     "gild3": "",
     "gild4": "",
-    "att": "Agility"
+    "att": "Agility",
+    "url": "/wiki/Lynx_Claws"
   },
   {
     "name": "Magpie's Thieving Claw",
@@ -267,7 +296,8 @@
     "gild2": "Intelligence +2",
     "gild3": "",
     "gild4": "",
-    "att": "Stealth"
+    "att": "Stealth",
+    "url": "/wiki/Magpie%27s_Thieving_Claw"
   },
   {
     "name": "Metal Buttons",
@@ -276,7 +306,8 @@
     "gild2": "Smithing +1",
     "gild3": "",
     "gild4": "",
-    "att": "Sewing"
+    "att": "Sewing",
+    "url": "/wiki/Metal_Buttons"
   },
   {
     "name": "Meteoric Studs",
@@ -285,7 +316,8 @@
     "gild2": "Intelligence +3",
     "gild3": "Charisma +4",
     "gild4": "Unarmed Combat +5",
-    "att": "Agility, Lore, Smithing, Strength"
+    "att": "Agility, Lore, Smithing, Strength",
+    "url": "/wiki/Meteoric_Studs"
   },
   {
     "name": "Mohair Monogram",
@@ -294,7 +326,8 @@
     "gild2": "Melee Combat +4",
     "gild3": "",
     "gild4": "",
-    "att": "Charisma, Sewing, Strength"
+    "att": "Charisma, Sewing, Strength",
+    "url": "/wiki/Mohair_Monogram"
   },
   {
     "name": "Mole's Pawbone",
@@ -303,7 +336,8 @@
     "gild2": "Exploration +2",
     "gild3": "Perception +1",
     "gild4": "",
-    "att": "Agility, Masonry, Survival"
+    "att": "Agility, Masonry, Survival",
+    "url": "/wiki/Mole%27s_Pawbone"
   },
   {
     "name": "Moose Antler Buttons",
@@ -312,7 +346,8 @@
     "gild2": "Will +2",
     "gild3": "Agility +1",
     "gild4": "",
-    "att": "Sewing, Strength, Survival"
+    "att": "Sewing, Strength, Survival",
+    "url": "/wiki/Moose_Antler_Buttons"
   },
   {
     "name": "Patterned Embroidery",
@@ -321,7 +356,8 @@
     "gild2": "Unarmed Combat +3",
     "gild3": "Strength +1",
     "gild4": "",
-    "att": "Sewing"
+    "att": "Sewing",
+    "url": "/wiki/Patterned_Embroidery"
   },
   {
     "name": "Petraglyph",
@@ -330,7 +366,8 @@
     "gild2": "Masonry +2",
     "gild3": "Lore +3",
     "gild4": "",
-    "att": "Lore, Masonry"
+    "att": "Lore, Masonry",
+    "url": "/wiki/Petraglyph"
   },
   {
     "name": "Plumb-Bob",
@@ -339,7 +376,8 @@
     "gild2": "Masonry +4",
     "gild3": "Smithing +2",
     "gild4": "",
-    "att": "Exploration, Intelligence, Masonry"
+    "att": "Exploration, Intelligence, Masonry",
+    "url": "/wiki/Plumb-Bob"
   },
   {
     "name": "Polished Porphyry Beads",
@@ -348,7 +386,8 @@
     "gild2": "Masonry +2",
     "gild3": "",
     "gild4": "",
-    "att": "Charisma, Masonry"
+    "att": "Charisma, Masonry",
+    "url": "/wiki/Polished_Porphyry_Beads"
   },
   {
     "name": "Precious Details",
@@ -357,7 +396,8 @@
     "gild2": "Charisma +5",
     "gild3": "",
     "gild4": "",
-    "att": "Agility"
+    "att": "Agility",
+    "url": "/wiki/Precious_Details"
   },
   {
     "name": "Quilted Wadding",
@@ -366,7 +406,8 @@
     "gild2": "Sewing +5",
     "gild3": "",
     "gild4": "",
-    "att": "Charisma, Sewing"
+    "att": "Charisma, Sewing",
+    "url": "/wiki/Quilted_Wadding"
   },
   {
     "name": "Reinforced Hem",
@@ -375,7 +416,8 @@
     "gild2": "Unarmed Combat +3",
     "gild3": "Marksmanship +4",
     "gild4": "",
-    "att": "Strength, Survival"
+    "att": "Strength, Survival",
+    "url": "/wiki/Reinforced_Hem"
   },
   {
     "name": "Rock Crystal",
@@ -384,7 +426,8 @@
     "gild2": "Melee Combat +6",
     "gild3": "",
     "gild4": "",
-    "att": "Melee Combat, Psyche"
+    "att": "Melee Combat, Psyche",
+    "url": "/wiki/Rock_Crystal"
   },
   {
     "name": "Rose Gold Clasps",
@@ -393,7 +436,8 @@
     "gild2": "Charisma +5",
     "gild3": "Marksmanship +10",
     "gild4": "",
-    "att": "Dexterity"
+    "att": "Dexterity",
+    "url": "/wiki/Rose_Gold_Clasps"
   },
   {
     "name": "Rough Guard Patch",
@@ -402,7 +446,8 @@
     "gild2": "Survival +2",
     "gild3": "Marksmanship +3",
     "gild4": "",
-    "att": "Agility, Sewing, Survival"
+    "att": "Agility, Sewing, Survival",
+    "url": "/wiki/Rough_Guard_Patch"
   },
   {
     "name": "Shipwreck Buttons",
@@ -411,7 +456,8 @@
     "gild2": "Psyche +2",
     "gild3": "Lore +4",
     "gild4": "",
-    "att": "Psyche, Sewing, Stealth"
+    "att": "Psyche, Sewing, Stealth",
+    "url": "/wiki/Shipwreck_Buttons"
   },
   {
     "name": "Silken Ribbon",
@@ -420,7 +466,8 @@
     "gild2": "Charisma +5",
     "gild3": "Sewing +5",
     "gild4": "",
-    "att": "Agility"
+    "att": "Agility",
+    "url": "/wiki/Silken_Ribbon"
   },
   {
     "name": "Silkspun Seam",
@@ -429,7 +476,8 @@
     "gild2": "Psyche +2",
     "gild3": "",
     "gild4": "",
-    "att": "Charisma"
+    "att": "Charisma",
+    "url": "/wiki/Silkspun_Seam"
   },
   {
     "name": "Snakeskin Stripes",
@@ -438,7 +486,8 @@
     "gild2": "Will +2",
     "gild3": "Stealth +3",
     "gild4": "",
-    "att": "Lore, Stealth, Will"
+    "att": "Lore, Stealth, Will",
+    "url": "/wiki/Snakeskin_Stripes"
   },
   {
     "name": "Spun Gluethread",
@@ -447,7 +496,8 @@
     "gild2": "",
     "gild3": "",
     "gild4": "",
-    "att": "Agility"
+    "att": "Agility",
+    "url": "/wiki/Spun_Gluethread"
   },
   {
     "name": "Taproot Lacing",
@@ -456,7 +506,8 @@
     "gild2": "",
     "gild3": "",
     "gild4": "",
-    "att": "Survival"
+    "att": "Survival",
+    "url": "/wiki/Taproot_Lacing"
   },
   {
     "name": "Troll Hide Ruffle",
@@ -465,7 +516,8 @@
     "gild2": "",
     "gild3": "",
     "gild4": "",
-    "att": "Sewing, Strength, Will"
+    "att": "Sewing, Strength, Will",
+    "url": "/wiki/Troll_Hide_Ruffle"
   },
   {
     "name": "Twig of Spruce",
@@ -474,7 +526,8 @@
     "gild2": "Lore +1",
     "gild3": "",
     "gild4": "",
-    "att": "Charisma, Exploration, Survival"
+    "att": "Charisma, Exploration, Survival",
+    "url": "/wiki/Twig_of_Spruce"
   },
   {
     "name": "Wax-Impregnated Lining",
@@ -483,7 +536,8 @@
     "gild2": "",
     "gild3": "",
     "gild4": "",
-    "att": "Exploration"
+    "att": "Exploration",
+    "url": "/wiki/Wax-Impregnated_Lining"
   },
   {
     "name": "Whalebone Clasps",
@@ -492,7 +546,8 @@
     "gild2": "Unarmed Combat +3",
     "gild3": "Agility +4",
     "gild4": "",
-    "att": "Agility, Sewing, Stealth, Strength"
+    "att": "Agility, Sewing, Stealth, Strength",
+    "url": "/wiki/Whalebone_Clasps"
   },
   {
     "name": "Wolf's Claw",
@@ -501,7 +556,8 @@
     "gild2": "Agility +1",
     "gild3": "",
     "gild4": "",
-    "att": "Strength"
+    "att": "Strength",
+    "url": "/wiki/Wolf%27s_Claw"
   },
   {
     "name": "Woodsman's Token",
@@ -510,7 +566,8 @@
     "gild2": "Lore +2",
     "gild3": "",
     "gild4": "",
-    "att": "Carpentry, Charisma, Exploration, Lore"
+    "att": "Carpentry, Charisma, Exploration, Lore",
+    "url": "/wiki/Woodsman%27s_Token"
   },
   {
     "name": "Wool Cloth Collar",
@@ -519,7 +576,8 @@
     "gild2": "Constitution +3",
     "gild3": "Sewing +3",
     "gild4": "",
-    "att": "Charisma, Dexterity, Sewing"
+    "att": "Charisma, Dexterity, Sewing",
+    "url": "/wiki/Wool_Cloth_Collar"
   },
   {
     "name": "Wool Stuffing",
@@ -528,6 +586,7 @@
     "gild2": "Marksmanship +5",
     "gild3": "",
     "gild4": "",
-    "att": "Agility, Sewing"
+    "att": "Agility, Sewing",
+    "url": "/wiki/Wool_Stuffing"
   }
 ]

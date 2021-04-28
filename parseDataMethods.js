@@ -6,7 +6,6 @@
 function parseGilds() {
   let gilds = [];
 
-  //for gems change classname to gems and look for gems classname
   let table = document.getElementsByClassName("smwtable")[0];
   for (let i = 0; i < table.rows.length; i++) {
     if (i === 0) continue;
@@ -19,6 +18,7 @@ function parseGilds() {
     gild.gild3 = row.cells[4].innerText;
     gild.gild4 = row.cells[5].innerText;
     gild.att = row.cells[6].innerText.split('\n').join(', ');
+    gild.url = row.cells[0].innerHTML.match(/href="(.*?)"/)[1];
     gilds.push(gild);
   }
   console.log(JSON.stringify(gilds));
@@ -37,6 +37,7 @@ function parseForage() {
     let f = {};
     f.name = row.cells[0].innerText;
     f.base = parseInt(row.cells[2].innerText.replace(/,/g, ''));
+    f.url = row.cells[0].innerHTML.match(/href="(.*?)"/)[1];
     forage.push(f);
   }
   forage.sort((a, b) => a.base < b.base ? -1 : 1);

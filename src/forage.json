@@ -1,298 +1,372 @@
 [
   {
     "name": "Blueberries",
-    "base": 10
+    "base": 10,
+    "url": "/wiki/Blueberries"
   },
   {
     "name": "Mistletoe",
-    "base": 20
+    "base": 20,
+    "url": "/wiki/Mistletoe"
   },
   {
     "name": "Spindly Taproot",
-    "base": 20
+    "base": 20,
+    "url": "/wiki/Spindly_Taproot"
   },
   {
     "name": "Elven Lights",
-    "base": 20
+    "base": 20,
+    "url": "/wiki/Elven_Lights"
   },
   {
     "name": "Dandelion",
-    "base": 20
+    "base": 20,
+    "url": "/wiki/Dandelion"
   },
   {
     "name": "Yule Star",
-    "base": 20
+    "base": 20,
+    "url": "/wiki/Yule_Star"
   },
   {
     "name": "Coltsfoot",
-    "base": 20
+    "base": 20,
+    "url": "/wiki/Coltsfoot"
   },
   {
     "name": "Perfect Autumn Leaf",
-    "base": 20
+    "base": 20,
+    "url": "/wiki/Perfect_Autumn_Leaf"
   },
   {
     "name": "Stinging Nettle",
-    "base": 50
+    "base": 50,
+    "url": "/wiki/Stinging_Nettle"
   },
   {
     "name": "Chives",
-    "base": 100
+    "base": 100,
+    "url": "/wiki/Chives"
   },
   {
     "name": "Chantrelles",
-    "base": 104
+    "base": 104,
+    "url": "/wiki/Chantrelles"
   },
   {
     "name": "Lady's Mantle",
-    "base": 160
+    "base": 160,
+    "url": "/wiki/Lady%27s_Mantle"
   },
   {
     "name": "Wild Windsown Weed",
-    "base": 160
+    "base": 160,
+    "url": "/wiki/Wild_Windsown_Weed"
   },
   {
     "name": "Dewy Lady's Mantle",
-    "base": 160
+    "base": 160,
+    "url": "/wiki/Dewy_Lady%27s_Mantle"
   },
   {
     "name": "Thorny Thistle",
-    "base": 180
+    "base": 180,
+    "url": "/wiki/Thorny_Thistle"
   },
   {
     "name": "Stalagoom",
-    "base": 200
+    "base": 200,
+    "url": "/wiki/Stalagoom"
   },
   {
     "name": "Gooseneck Barnacle",
-    "base": 200
+    "base": 200,
+    "url": "/wiki/Gooseneck_Barnacle"
   },
   {
     "name": "Lingonberries",
-    "base": 216
+    "base": 216,
+    "url": "/wiki/Lingonberries"
   },
   {
     "name": "Bloated Bolete",
-    "base": 220
+    "base": 220,
+    "url": "/wiki/Bloated_Bolete"
   },
   {
     "name": "Peculiar Flotsam",
-    "base": 220
+    "base": 220,
+    "url": "/wiki/Peculiar_Flotsam"
   },
   {
     "name": "Clover",
-    "base": 260
+    "base": 260,
+    "url": "/wiki/Clover"
   },
   {
     "name": "Four-Leaf Clover",
-    "base": 260
+    "base": 260,
+    "url": "/wiki/Four-Leaf_Clover"
   },
   {
     "name": "Uncommon Snapdragon",
-    "base": 288
+    "base": 288,
+    "url": "/wiki/Uncommon_Snapdragon"
   },
   {
     "name": "Morels",
-    "base": 300
+    "base": 300,
+    "url": "/wiki/Morels"
   },
   {
     "name": "Dusk Fern",
-    "base": 300
+    "base": 300,
+    "url": "/wiki/Dusk_Fern"
   },
   {
     "name": "Waybroad",
-    "base": 300
+    "base": 300,
+    "url": "/wiki/Waybroad"
   },
   {
     "name": "Parasol Mushroom",
-    "base": 300
+    "base": 300,
+    "url": "/wiki/Parasol_Mushroom"
   },
   {
     "name": "Candleberry",
-    "base": 320
+    "base": 320,
+    "url": "/wiki/Candleberry"
   },
   {
     "name": "Spirited Mandrake Root",
-    "base": 400
+    "base": 400,
+    "url": "/wiki/Spirited_Mandrake_Root"
   },
   {
     "name": "Mandrake Root",
-    "base": 400
+    "base": 400,
+    "url": "/wiki/Mandrake_Root"
   },
   {
     "name": "Lamp Stalk",
-    "base": 400
+    "base": 400,
+    "url": "/wiki/Lamp_Stalk"
   },
   {
     "name": "Yellowfeet",
-    "base": 400
+    "base": 400,
+    "url": "/wiki/Yellowfeet"
   },
   {
     "name": "Yarrow",
-    "base": 400
+    "base": 400,
+    "url": "/wiki/Yarrow"
   },
   {
     "name": "Cattail",
-    "base": 420
+    "base": 420,
+    "url": "/wiki/Cattail"
   },
   {
     "name": "Swamplily",
-    "base": 500
+    "base": 500,
+    "url": "/wiki/Swamplily"
   },
   {
     "name": "Washed-up Bladderwrack",
-    "base": 500
+    "base": 500,
+    "url": "/wiki/Washed-up_Bladderwrack"
   },
   {
     "name": "Gray Clay",
-    "base": 540
+    "base": 540,
+    "url": "/wiki/Gray_Clay"
   },
   {
     "name": "Tangled Bramble",
-    "base": 560
+    "base": 560,
+    "url": "/wiki/Tangled_Bramble"
   },
   {
     "name": "Royal Toadstool",
-    "base": 648
+    "base": 648,
+    "url": "/wiki/Royal_Toadstool"
   },
   {
     "name": "Frog's Crown",
-    "base": 900
+    "base": 900,
+    "url": "/wiki/Frog%27s_Crown"
   },
   {
     "name": "Rustroot",
-    "base": 1000
+    "base": 1000,
+    "url": "/wiki/Rustroot"
   },
   {
     "name": "Giant Puffball",
-    "base": 1000
+    "base": 1000,
+    "url": "/wiki/Giant_Puffball"
   },
   {
     "name": "Chiming Bluebell",
-    "base": 1040
+    "base": 1040,
+    "url": "/wiki/Chiming_Bluebell"
   },
   {
     "name": "Cavebulb",
-    "base": 1050
+    "base": 1050,
+    "url": "/wiki/Cavebulb"
   },
   {
     "name": "Razor Clam",
-    "base": 1200
+    "base": 1200,
+    "url": "/wiki/Razor_Clam"
   },
   {
     "name": "Common Starfish",
-    "base": 1400
+    "base": 1400,
+    "url": "/wiki/Common_Starfish"
   },
   {
     "name": "River Pearl Mussel",
-    "base": 1520
+    "base": 1520,
+    "url": "/wiki/River_Pearl_Mussel"
   },
   {
     "name": "Bay Bolete",
-    "base": 1920
+    "base": 1920,
+    "url": "/wiki/Bay_Bolete"
   },
   {
     "name": "Rainbowpad",
-    "base": 2000
+    "base": 2000,
+    "url": "/wiki/Rainbowpad"
   },
   {
     "name": "Frogspawn",
-    "base": 2000
+    "base": 2000,
+    "url": "/wiki/Frogspawn"
   },
   {
     "name": "Heartsease",
-    "base": 2400
+    "base": 2400,
+    "url": "/wiki/Heartsease"
   },
   {
     "name": "Blood Stern",
-    "base": 2500
+    "base": 2500,
+    "url": "/wiki/Blood_Stern"
   },
   {
     "name": "Glimmermoss",
-    "base": 2550
+    "base": 2550,
+    "url": "/wiki/Glimmermoss"
   },
   {
     "name": "Snowtop",
-    "base": 3000
+    "base": 3000,
+    "url": "/wiki/Snowtop"
   },
   {
     "name": "Edelweiß",
-    "base": 3200
+    "base": 3200,
+    "url": "/wiki/Edelwei%C3%9F"
   },
   {
     "name": "Strawberry",
-    "base": 3700
+    "base": 3700,
+    "url": "/wiki/Strawberry"
   },
   {
     "name": "Rainbow Shell",
-    "base": 5000
+    "base": 5000,
+    "url": "/wiki/Rainbow_Shell"
   },
   {
     "name": "Kvann",
-    "base": 5000
+    "base": 5000,
+    "url": "/wiki/Kvann"
   },
   {
     "name": "Ruby Bolete",
-    "base": 5000
+    "base": 5000,
+    "url": "/wiki/Ruby_Bolete"
   },
   {
     "name": "Camomile",
-    "base": 6600
-  },
-  {
-    "name": "Dill",
-    "base": 7000
-  },
-  {
-    "name": "Black Trumpets",
-    "base": 7000
-  },
-  {
-    "name": "Thyme",
-    "base": 7000
-  },
-  {
-    "name": "Sage",
-    "base": 7000
-  },
-  {
-    "name": "Green Kelp",
-    "base": 7000
+    "base": 6600,
+    "url": "/wiki/Camomile"
   },
   {
     "name": "Cave Coral",
-    "base": 7384
+    "base": 6880,
+    "url": "/wiki/Cave_Coral"
+  },
+  {
+    "name": "Green Kelp",
+    "base": 7000,
+    "url": "/wiki/Green_Kelp"
+  },
+  {
+    "name": "Dill",
+    "base": 7000,
+    "url": "/wiki/Dill"
+  },
+  {
+    "name": "Black Trumpets",
+    "base": 7000,
+    "url": "/wiki/Black_Trumpets"
+  },
+  {
+    "name": "Thyme",
+    "base": 7000,
+    "url": "/wiki/Thyme"
+  },
+  {
+    "name": "Sage",
+    "base": 7000,
+    "url": "/wiki/Sage"
   },
   {
     "name": "Oyster",
-    "base": 8000
+    "base": 8000,
+    "url": "/wiki/Oyster"
   },
   {
     "name": "Cave Clay",
-    "base": 9200
+    "base": 9200,
+    "url": "/wiki/Cave_Clay"
   },
   {
     "name": "Field Blewits",
-    "base": 10000
+    "base": 10000,
+    "url": "/wiki/Field_Blewits"
   },
   {
     "name": "Cave Lantern",
-    "base": 16000
+    "base": 16000,
+    "url": "/wiki/Cave_Lantern"
   },
   {
     "name": "Wintergreen",
-    "base": 24000
+    "base": 24000,
+    "url": "/wiki/Wintergreen"
   },
   {
     "name": "Marsh-Mallow",
-    "base": 25000
+    "base": 25000,
+    "url": "/wiki/Marsh-Mallow"
   },
   {
     "name": "Sleighbell",
-    "base": 36000
+    "base": 36000,
+    "url": "/wiki/Sleighbell"
   },
   {
     "name": "Indigo Cap",
-    "base": 78000
+    "base": 78000,
+    "url": "/wiki/Indigo_Cap"
   }
 ]

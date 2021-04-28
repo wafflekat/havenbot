@@ -29,7 +29,7 @@ const ucFirst = (str: string) => {
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
-const searchWiki = async (name: string): Promise<{ url: string, attachment: MessageAttachment }> => {
+const searchWiki = async (name: string): Promise<{ name: string, url: string, attachment: MessageAttachment }> => {
   name = name.replace('_', '+');
   try {
     const response = await got(`http://ringofbrodgar.com/w/index.php?title=Special%3ASearch&search=${name}&fulltext=Search`);
@@ -74,7 +74,7 @@ const parseWikiName = (name: string | string[]): string => {
   return encodeURIComponent(nameString);
 };
 
-export const getWikiPage = async (name: string | string[]): Promise<{ url: string, attachment: MessageAttachment }> => {
+export const getWikiPage = async (name: string | string[]): Promise<{ name: string, url: string, attachment: MessageAttachment }> => {
   name = parseWikiName(name);
 
   try {
@@ -120,7 +120,7 @@ export const getWikiPage = async (name: string | string[]): Promise<{ url: strin
 
     await browser.close();
 
-    return { url: `<http://ringofbrodgar.com/wiki/${name}>`, attachment };
+    return { name: name.replace('_', ' '), url: `<http://ringofbrodgar.com/wiki/${name}>`, attachment };
 
 
   } catch (e) {

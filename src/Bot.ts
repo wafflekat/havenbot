@@ -50,7 +50,7 @@ export class Bot {
 
         case 'wiki':
           const wikiData = await getWikiPage(args);
-          message.channel.send(`[${wikiData.name}](${wikiData.url})`, { files: [wikiData.attachment] });
+          message.channel.send(wikiData.url, { files: [wikiData.attachment] });
           break;
 
         case 'gild':

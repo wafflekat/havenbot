@@ -1,84 +1,83 @@
 import { Client, Message } from 'discord.js';
-import {
-  BotError,
-  getHelp,
-  getStatus,
-  getWikiPage,
-  gildList, handleForage,
-} from './utils';
+import { BotError, getHelp, getStatus, getWikiPage, gildList, handleForage } from './utils';
 
 export class Bot {
-
   private client: Client;
 
-  public async listen() {
+  public async listen(): Promise<void> {
     this.client = new Client();
     await this.registerEvents();
     await this.client.login(process.env.TOKEN);
   }
 
-
-  private async registerEvents() {
+  private async registerEvents(): Promise<void> {
     this.client.on('ready', this.readyListener.bind(this));
     this.client.on('message', this.messageListener.bind(this));
   }
 
-  private async readyListener() {
+  private readyListener(): void {
     console.log('Connected');
-    this.client.user.setActivity({ name: 'Haven & Hearth', type: 'PLAYING' });
+    this.client.user.setActivity({ name: 'Haven & Hearth', type: 'PLAYING' }).catch(console.error);
   }
 
-  private async messageListener(message: Message) {
-    if (message.content.substring(0, 1) !== '!')
+  private async messageListener(message: Message): Promise<void> {
+    if (!message.content.startsWith('!')) {
       return;
+    }
 
     try {
-      let args = message.content.substring(1).split(' ');
-      const cmd = args[0];
-      args = args.splice(1);
+      const args = message.content.slice(1).trim().split(/ +/);
+      const cmd = args.shift()?.toLowerCase();
 
       switch (cmd) {
-        case 'help':
+        case 'help': {
           const help = await getHelp();
-          message.channel.send(help);
+          await message.channel.send(help);
           break;
+        }
 
-        case 'status':
+        case 'status': {
           const status = await getStatus();
-          message.channel.send(status);
+          await message.channel.send(status);
           break;
+        }
 
-        case 'wiki':
+        case 'wiki': {
           const wikiData = await getWikiPage(args);
-          message.channel.send(wikiData.url, { files: [wikiData.attachment] });
+          await message.channel.send({ files: [wikiData.attachment], content: wikiData.url });
           break;
+        }
 
         case 'gild':
-        case 'gem':
+        case 'gem': {
           if (args.length === 0 || args[0].trim() === '') {
-            message.channel.send('Use ``!help`` for a list of commands.');
+            await message.channel.send('Use `!help` for a list of commands.');
           } else {
             const data = await gildList(args.join(' '), cmd);
-            for (let item of data) {
+            for (const item of data) {
               await message.channel.send(item);
             }
           }
           break;
+        }
 
-        case 'forage':
+        case 'forage': {
           const data = await handleForage(args);
-          for (let item of data) {
+          for (const item of data) {
             await message.channel.send(item);
           }
+          break;
+        }
+
+        default:
           break;
       }
     } catch (e) {
       if (e instanceof BotError) {
-        message.channel.send(e.message);
+        await message.channel.send(e.message);
       } else {
-        console.log(e);
+        console.error(e);
       }
     }
   }
-
 }
